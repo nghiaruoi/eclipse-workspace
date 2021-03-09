@@ -1,0 +1,55 @@
+package code;
+
+
+
+
+
+
+
+
+
+/**
+ * Homework 3 <br>
+ * Simulating a purchase in Canada paid in US dollars
+ * 
+ * @author <your name here>
+ */
+
+public class CanadianGiftShop {
+
+//	public static void drawTriangle() {
+//		int n = 10;
+//		for (int i = 0; i < n; i++) {
+//			for (int j = 0; j < n; j++) {
+//				if (j <= i) {
+//					System.out.print("*");
+//				}
+//			}
+//			System.out.println();
+//		}
+//	}
+
+	public static void drawTriangle2() {
+		int n = 10;
+		for (int i = 0; i < n; i++) {
+			for (int j = 0; j < n; j++) {
+				if ((j >= n - i -1) && (j <= n - i + j))  {
+					System.out.print("*");
+				}
+				else {
+					System.out.print(" ");
+				}
+			}
+			System.out.println();
+		}
+	}
+	
+	/**
+	 * Entry point of the program
+	 */
+	public static void main(String[] args) {
+		
+		drawTriangle2();
+	}
+
+}

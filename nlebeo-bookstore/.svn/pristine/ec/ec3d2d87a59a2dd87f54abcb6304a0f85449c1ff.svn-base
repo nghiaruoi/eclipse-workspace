@@ -1,0 +1,65 @@
+package tests;
+
+import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertAll;
+
+import java.math.BigDecimal;
+import model.Item;
+import model.ItemOrder;
+import org.junit.Before;
+import org.junit.Test;
+
+public class ItemOrderTest {
+    
+    private Item myItem, myBulkItem;
+    private ItemOrder myItemOrder, myBulkItemOrder;
+    
+    //final ItemOrder myItemOrder = new ItemOrder(myItem, 5);
+    //ItemOrder myBulkItemOrder;
+    
+    @Before
+    public void setUp() {
+        myItem = new Item("simple test", new BigDecimal("1.99"));
+        myBulkItem = new Item("test", new BigDecimal("2.99") , 5, new BigDecimal("9.99"));
+        myItemOrder = new ItemOrder(myItem, 5);
+        myBulkItemOrder = new ItemOrder(myBulkItem, 5);
+    }
+    
+    @Test
+    public void testItemOrderIAE() {
+        assertThrows(IllegalArgumentException.class, 
+            () -> new ItemOrder(myItem, -5));
+    }
+    
+    @Test
+    public void testItemOrderUPE() {
+        assertThrows(NullPointerException.class,
+            () -> new ItemOrder(null, 5));
+    }
+    
+    @Test
+    public void testGetItem() {
+        final Item testItem = new Item("simple test", new BigDecimal("1.99"));
+        assertTrue(myItemOrder.getItem().getClass() == testItem.getClass());
+    }
+    
+    @Test
+    public void testGetQuantity() {
+        assertTrue(myItemOrder.getQuantity() == 5);
+    }
+    
+    @Test
+    public void testToString() {
+        final String testStringSingle = "1 " + myItem;
+        final String testStringMultiple = "5" + " " + myItem + "s";
+        final ItemOrder testItemOrder = new ItemOrder(myItem, 1);
+        final ItemOrder testNoItem = new ItemOrder(myItem, 0);
+        
+        assertAll(
+            () -> assertEquals(myItemOrder.toString(), testStringMultiple),
+            
+            () -> assertEquals(testItemOrder.toString(), testStringSingle),
+            
+            () -> assertEquals("There is no item", testNoItem.toString()));
+    }
+}

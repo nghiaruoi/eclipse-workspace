@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.1" sequence="1" timestamp="1614815716352" analysisTimestamp="1614815714953" release="">
+  <Project projectName="FirstAnimationExample">
+    <Jar>C:\Users\nle01\eclipse-workspace\FirstAnimationExample\bin</Jar>
+    <AuxClasspathEntry>C:\Users\nle01\eclipse-workspace\FirstAnimationExample\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\nle01\eclipse-workspace\FirstAnimationExample\src</SrcDir>
+  </Project>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE" first="1">
+    <Class classname="view.LotsOfMovingShapesPanel$Ball">
+      <SourceLine classname="view.LotsOfMovingShapesPanel$Ball" start="313" end="399" sourcefile="LotsOfMovingShapesPanel.java" sourcepath="view/LotsOfMovingShapesPanel.java"/>
+    </Class>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 3 Mar 2021 15:55:14 -0800" total_classes="8" referenced_classes="303" total_bugs="1" total_size="261" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="8.55" clock_seconds="1.40" peak_mbytes="716.67" alloc_mbytes="2048.00" gc_seconds="0.10" priority_2="1">
+    <PackageStats package="view" total_bugs="1" total_types="8" total_size="261" priority_2="1">
+      <ClassStats class="view.LotsOfMovingShapesPanel" sourceFile="LotsOfMovingShapesPanel.java" interface="false" size="46" bugs="0"/>
+      <ClassStats class="view.LotsOfMovingShapesPanel$1" sourceFile="LotsOfMovingShapesPanel.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="view.LotsOfMovingShapesPanel$Ball" sourceFile="LotsOfMovingShapesPanel.java" interface="false" size="45" bugs="1" priority_2="1"/>
+      <ClassStats class="view.LotsOfMovingShapesPanel$MouseClickListener" sourceFile="LotsOfMovingShapesPanel.java" interface="false" size="31" bugs="0"/>
+      <ClassStats class="view.LotsOfMovingShapesPanel$MoveListener" sourceFile="LotsOfMovingShapesPanel.java" interface="false" size="45" bugs="0"/>
+      <ClassStats class="view.MovingShapePanel" sourceFile="MovingShapePanel.java" interface="false" size="41" bugs="0"/>
+      <ClassStats class="view.MovingShapePanel$1" sourceFile="MovingShapePanel.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="view.MovingShapePanel$MoveListener" sourceFile="MovingShapePanel.java" interface="false" size="27" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="281" invocations="1565" avgMicrosecondsPerInvocation="179" maxMicrosecondsPerInvocation="8309" standardDeviationMicrosecondsPerInvocation="460"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="219" invocations="1569" avgMicrosecondsPerInvocation="140" maxMicrosecondsPerInvocation="8376" standardDeviationMicrosecondsPerInvocation="336"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="146" invocations="2" avgMicrosecondsPerInvocation="73021" maxMicrosecondsPerInvocation="106579" standardDeviationMicrosecondsPerInvocation="33557"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="119" invocations="303" avgMicrosecondsPerInvocation="395" maxMicrosecondsPerInvocation="7002" standardDeviationMicrosecondsPerInvocation="777"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="116" invocations="303" avgMicrosecondsPerInvocation="383" maxMicrosecondsPerInvocation="3703" standardDeviationMicrosecondsPerInvocation="674"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="76" invocations="650" avgMicrosecondsPerInvocation="118" maxMicrosecondsPerInvocation="7748" standardDeviationMicrosecondsPerInvocation="397"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="53" invocations="303" avgMicrosecondsPerInvocation="177" maxMicrosecondsPerInvocation="17161" standardDeviationMicrosecondsPerInvocation="998"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="40" invocations="1521" avgMicrosecondsPerInvocation="26" maxMicrosecondsPerInvocation="7706" standardDeviationMicrosecondsPerInvocation="202"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1614815716352" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

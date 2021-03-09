@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="1" timestamp="1611521008818" analysisTimestamp="1611521007001" release="">
+  <Project projectName="Point example">
+    <Jar>C:\Users\nle01\eclipse-workspace\Point example\bin</Jar>
+    <AuxClasspathEntry>C:\Users\nle01\eclipse-workspace\Point example\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.junit.jupiter.api_5.7.0.v20201026-1537.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.junit.jupiter.engine_5.7.0.v20201026-1537.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.junit.jupiter.migrationsupport_5.7.0.v20201026-1537.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.junit.jupiter.params_5.7.0.v20201026-1537.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.junit.platform.commons_1.7.0.v20201026-1537.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.junit.platform.engine_1.7.0.v20201026-1537.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.junit.platform.launcher_1.7.0.v20201026-1537.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.junit.platform.runner_1.7.0.v20201026-1537.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.junit.platform.suite.api_1.7.0.v20201026-1537.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.junit.vintage.engine_5.7.0.v20201026-1537.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.opentest4j_1.2.0.v20190826-0900.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.apiguardian_1.1.0.v20190826-0900.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\nle01\eclipse-workspace\Point example\src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sun, 24 Jan 2021 12:43:26 -0800" total_classes="3" referenced_classes="35" total_bugs="0" total_size="169" num_packages="2" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="16.38" clock_seconds="1.82" peak_mbytes="631.65" alloc_mbytes="2048.00" gc_seconds="0.12">
+    <PackageStats package="shapes" total_bugs="0" total_types="2" total_size="73">
+      <ClassStats class="shapes.Point" sourceFile="Point.java" interface="false" size="57" bugs="0"/>
+      <ClassStats class="shapes.PointDriver" sourceFile="PointDriver.java" interface="false" size="16" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="tests" total_bugs="0" total_types="1" total_size="96">
+      <ClassStats class="tests.PointTest" sourceFile="PointTest.java" interface="false" size="96" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="521" invocations="2" avgMicrosecondsPerInvocation="260916" maxMicrosecondsPerInvocation="419882" standardDeviationMicrosecondsPerInvocation="158966"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="327" invocations="514" avgMicrosecondsPerInvocation="636" maxMicrosecondsPerInvocation="18338" standardDeviationMicrosecondsPerInvocation="1478"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="112" invocations="35" avgMicrosecondsPerInvocation="3218" maxMicrosecondsPerInvocation="23153" standardDeviationMicrosecondsPerInvocation="4845"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="112" invocations="517" avgMicrosecondsPerInvocation="217" maxMicrosecondsPerInvocation="8655" standardDeviationMicrosecondsPerInvocation="479"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="90" invocations="35" avgMicrosecondsPerInvocation="2593" maxMicrosecondsPerInvocation="12195" standardDeviationMicrosecondsPerInvocation="3595"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="62" invocations="128" avgMicrosecondsPerInvocation="484" maxMicrosecondsPerInvocation="10101" standardDeviationMicrosecondsPerInvocation="1193"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="39" invocations="65" avgMicrosecondsPerInvocation="615" maxMicrosecondsPerInvocation="11436" standardDeviationMicrosecondsPerInvocation="1779"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="38" invocations="35" avgMicrosecondsPerInvocation="1101" maxMicrosecondsPerInvocation="5431" standardDeviationMicrosecondsPerInvocation="1361"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="30" invocations="35" avgMicrosecondsPerInvocation="885" maxMicrosecondsPerInvocation="7173" standardDeviationMicrosecondsPerInvocation="1394"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="29" invocations="475" avgMicrosecondsPerInvocation="63" maxMicrosecondsPerInvocation="1196" standardDeviationMicrosecondsPerInvocation="115"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1611521008818" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

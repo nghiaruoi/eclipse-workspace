@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="1" timestamp="1610415113256" analysisTimestamp="1610415111359" release="">
+  <Project projectName="username-bookstore">
+    <Jar>C:\Users\nle01\eclipse-workspace\username-bookstore\bin</Jar>
+    <AuxClasspathEntry>C:\Users\nle01\eclipse-workspace\username-bookstore\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\nle01\eclipse-workspace\username-bookstore\src</SrcDir>
+  </Project>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="io.CredentialingLoader">
+      <SourceLine classname="io.CredentialingLoader" sourcefile="CredentialingLoader.java" sourcepath="io/CredentialingLoader.java"/>
+    </Class>
+    <Method classname="io.CredentialingLoader" name="register" signature="(Ljava/lang/String;[CLjava/lang/String;)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="io.CredentialingLoader" start="95" end="128" startBytecode="0" endBytecode="703" sourcefile="CredentialingLoader.java" sourcepath="io/CredentialingLoader.java"/>
+    </Method>
+    <Method classname="java.io.FileWriter" name="&lt;init&gt;" signature="(Ljava/io/File;Z)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileWriter" start="113" end="114" startBytecode="0" endBytecode="79" sourcefile="FileWriter.java" sourcepath="java/io/FileWriter.java"/>
+    </Method>
+    <SourceLine classname="io.CredentialingLoader" start="106" end="106" startBytecode="78" endBytecode="78" sourcefile="CredentialingLoader.java" sourcepath="io/CredentialingLoader.java"/>
+    <SourceLine classname="io.CredentialingLoader" start="106" end="106" startBytecode="78" endBytecode="78" sourcefile="CredentialingLoader.java" sourcepath="io/CredentialingLoader.java"/>
+  </BugInstance>
+  <BugInstance type="DM_BOXED_PRIMITIVE_FOR_PARSING" priority="1" rank="16" abbrev="Bx" category="PERFORMANCE" first="1">
+    <Class classname="io.InventoryLoader">
+      <SourceLine classname="io.InventoryLoader" sourcefile="InventoryLoader.java" sourcepath="io/InventoryLoader.java"/>
+    </Class>
+    <Method classname="io.InventoryLoader" name="readItemsFromFile" signature="(Ljava/lang/String;)Ljava/util/List;" isStatic="true">
+      <SourceLine classname="io.InventoryLoader" start="42" end="62" startBytecode="0" endBytecode="527" sourcefile="InventoryLoader.java" sourcepath="io/InventoryLoader.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="intValue" signature="()I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Integer" start="1138" end="1138" startBytecode="0" endBytecode="46" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="parseInt" signature="(Ljava/lang/String;)I" isStatic="true" role="SHOULD_CALL"/>
+    <SourceLine classname="io.InventoryLoader" start="51" end="51" startBytecode="92" endBytecode="92" sourcefile="InventoryLoader.java" sourcepath="io/InventoryLoader.java"/>
+    <SourceLine classname="io.InventoryLoader" start="51" end="51" startBytecode="92" endBytecode="92" sourcefile="InventoryLoader.java" sourcepath="io/InventoryLoader.java"/>
+  </BugInstance>
+  <BugInstance type="NP_TOSTRING_COULD_RETURN_NULL" priority="2" rank="14" abbrev="NP" category="BAD_PRACTICE" first="1">
+    <Class classname="model.Cart">
+      <SourceLine classname="model.Cart" sourcefile="Cart.java" sourcepath="model/Cart.java"/>
+    </Class>
+    <Method classname="model.Cart" name="toString" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="model.Cart" start="42" end="42" startBytecode="0" endBytecode="43" sourcefile="Cart.java" sourcepath="model/Cart.java"/>
+    </Method>
+    <SourceLine classname="model.Cart" start="42" end="42" startBytecode="1" endBytecode="1" sourcefile="Cart.java" sourcepath="model/Cart.java"/>
+    <SourceLine classname="model.Cart" start="42" end="42" startBytecode="1" endBytecode="1" sourcefile="Cart.java" sourcepath="model/Cart.java"/>
+  </BugInstance>
+  <BugInstance type="EQ_ALWAYS_FALSE" priority="1" rank="7" abbrev="Eq" category="CORRECTNESS" first="1">
+    <Class classname="model.Item">
+      <SourceLine classname="model.Item" sourcefile="Item.java" sourcepath="model/Item.java"/>
+    </Class>
+    <Method classname="model.Item" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false">
+      <SourceLine classname="model.Item" start="51" end="51" startBytecode="0" endBytecode="53" sourcefile="Item.java" sourcepath="model/Item.java"/>
+    </Method>
+    <SourceLine classname="model.Item" start="51" end="51" startBytecode="1" endBytecode="1" sourcefile="Item.java" sourcepath="model/Item.java"/>
+  </BugInstance>
+  <BugInstance type="NP_TOSTRING_COULD_RETURN_NULL" priority="2" rank="14" abbrev="NP" category="BAD_PRACTICE" first="1">
+    <Class classname="model.Item">
+      <SourceLine classname="model.Item" sourcefile="Item.java" sourcepath="model/Item.java"/>
+    </Class>
+    <Method classname="model.Item" name="toString" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="model.Item" start="45" end="45" startBytecode="0" endBytecode="43" sourcefile="Item.java" sourcepath="model/Item.java"/>
+    </Method>
+    <SourceLine classname="model.Item" start="45" end="45" startBytecode="1" endBytecode="1" sourcefile="Item.java" sourcepath="model/Item.java"/>
+    <SourceLine classname="model.Item" start="45" end="45" startBytecode="1" endBytecode="1" sourcefile="Item.java" sourcepath="model/Item.java"/>
+  </BugInstance>
+  <BugInstance type="NP_TOSTRING_COULD_RETURN_NULL" priority="2" rank="14" abbrev="NP" category="BAD_PRACTICE" first="1">
+    <Class classname="model.ItemOrder">
+      <SourceLine classname="model.ItemOrder" sourcefile="ItemOrder.java" sourcepath="model/ItemOrder.java"/>
+    </Class>
+    <Method classname="model.ItemOrder" name="toString" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="model.ItemOrder" start="27" end="27" startBytecode="0" endBytecode="43" sourcefile="ItemOrder.java" sourcepath="model/ItemOrder.java"/>
+    </Method>
+    <SourceLine classname="model.ItemOrder" start="27" end="27" startBytecode="1" endBytecode="1" sourcefile="ItemOrder.java" sourcepath="model/ItemOrder.java"/>
+    <SourceLine classname="model.ItemOrder" start="27" end="27" startBytecode="1" endBytecode="1" sourcefile="ItemOrder.java" sourcepath="model/ItemOrder.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 11 Jan 2021 17:31:51 -0800" total_classes="20" referenced_classes="372" total_bugs="6" total_size="674" num_packages="5" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="12.73" clock_seconds="1.90" peak_mbytes="568.16" alloc_mbytes="2048.00" gc_seconds="0.10" priority_2="3" priority_1="3">
+    <PackageStats package="appliation" total_bugs="0" total_types="2" total_size="16">
+      <ClassStats class="appliation.BookstoreMain" sourceFile="BookstoreMain.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="appliation.BookstoreMain$1" sourceFile="BookstoreMain.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="io" total_bugs="2" total_types="2" total_size="120" priority_1="2">
+      <ClassStats class="io.CredentialingLoader" sourceFile="CredentialingLoader.java" interface="false" size="88" bugs="1" priority_1="1"/>
+      <ClassStats class="io.InventoryLoader" sourceFile="InventoryLoader.java" interface="false" size="32" bugs="1" priority_1="1"/>
+    </PackageStats>
+    <PackageStats package="model" total_bugs="4" total_types="3" total_size="47" priority_2="3" priority_1="1">
+      <ClassStats class="model.Cart" sourceFile="Cart.java" interface="false" size="16" bugs="1" priority_2="1"/>
+      <ClassStats class="model.Item" sourceFile="Item.java" interface="false" size="21" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="model.ItemOrder" sourceFile="ItemOrder.java" interface="false" size="10" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="res" total_bugs="0" total_types="6" total_size="108">
+      <ClassStats class="res.R" sourceFile="R.java" interface="false" size="3" bugs="0"/>
+      <ClassStats class="res.R$Colors" sourceFile="R.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="res.R$Dimensions" sourceFile="R.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="res.R$ItemsFile" sourceFile="R.java" interface="false" size="22" bugs="0"/>
+      <ClassStats class="res.R$Strings" sourceFile="R.java" interface="false" size="32" bugs="0"/>
+      <ClassStats class="res.R$UsersFile" sourceFile="R.java" interface="false" size="22" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="view" total_bugs="0" total_types="7" total_size="383">
+      <ClassStats class="view.BookstoreFrame" sourceFile="BookstoreFrame.java" interface="false" size="138" bugs="0"/>
+      <ClassStats class="view.BookstoreFrame$1" sourceFile="BookstoreFrame.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="view.LoginFrame" sourceFile="LoginFrame.java" interface="false" size="141" bugs="0"/>
+      <ClassStats class="view.LoginFrame$AttemptLoginWorker" sourceFile="LoginFrame.java" interface="false" size="26" bugs="0"/>
+      <ClassStats class="view.LoginFrame$AttemptRegistrationWorker" sourceFile="LoginFrame.java" interface="false" size="29" bugs="0"/>
+      <ClassStats class="view.LoginFrame$LoadInventoryWorker" sourceFile="LoginFrame.java" interface="false" size="28" bugs="0"/>
+      <ClassStats class="view.LoginFrame$LoadInventoryWorker$1" sourceFile="LoginFrame.java" interface="false" size="12" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="282" invocations="1776" avgMicrosecondsPerInvocation="159" maxMicrosecondsPerInvocation="10961" standardDeviationMicrosecondsPerInvocation="552"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="242" invocations="1781" avgMicrosecondsPerInvocation="136" maxMicrosecondsPerInvocation="15245" standardDeviationMicrosecondsPerInvocation="368"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="201" invocations="372" avgMicrosecondsPerInvocation="542" maxMicrosecondsPerInvocation="17523" standardDeviationMicrosecondsPerInvocation="1390"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="175" invocations="372" avgMicrosecondsPerInvocation="471" maxMicrosecondsPerInvocation="8220" standardDeviationMicrosecondsPerInvocation="922"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="144" invocations="2" avgMicrosecondsPerInvocation="72164" maxMicrosecondsPerInvocation="82383" standardDeviationMicrosecondsPerInvocation="10215"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="105" invocations="864" avgMicrosecondsPerInvocation="122" maxMicrosecondsPerInvocation="7419" standardDeviationMicrosecondsPerInvocation="281"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="52" invocations="372" avgMicrosecondsPerInvocation="141" maxMicrosecondsPerInvocation="2872" standardDeviationMicrosecondsPerInvocation="279"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="43" invocations="372" avgMicrosecondsPerInvocation="117" maxMicrosecondsPerInvocation="5947" standardDeviationMicrosecondsPerInvocation="366"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="36" invocations="372" avgMicrosecondsPerInvocation="97" maxMicrosecondsPerInvocation="2820" standardDeviationMicrosecondsPerInvocation="250"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="35" invocations="463" avgMicrosecondsPerInvocation="77" maxMicrosecondsPerInvocation="931" standardDeviationMicrosecondsPerInvocation="113"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="33" invocations="89" avgMicrosecondsPerInvocation="377" maxMicrosecondsPerInvocation="17829" standardDeviationMicrosecondsPerInvocation="1883"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="31" invocations="372" avgMicrosecondsPerInvocation="84" maxMicrosecondsPerInvocation="7565" standardDeviationMicrosecondsPerInvocation="529"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="28" invocations="372" avgMicrosecondsPerInvocation="77" maxMicrosecondsPerInvocation="1008" standardDeviationMicrosecondsPerInvocation="124"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1610415113255" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

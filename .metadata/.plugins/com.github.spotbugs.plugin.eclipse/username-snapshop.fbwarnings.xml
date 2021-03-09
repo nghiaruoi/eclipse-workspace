@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="1" timestamp="1612825263905" analysisTimestamp="1612825261110" release="">
+  <Project projectName="username-snapshop">
+    <Jar>C:\Users\nle01\eclipse-workspace\username-snapshop\bin</Jar>
+    <AuxClasspathEntry>C:\Users\nle01\eclipse-workspace\username-snapshop\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\nle01\eclipse-workspace\username-snapshop\src</SrcDir>
+  </Project>
+  <BugInstance type="ICAST_IDIV_CAST_TO_DOUBLE" priority="2" rank="17" abbrev="ICAST" category="STYLE" first="1">
+    <Class classname="gui.SnapShopGUI">
+      <SourceLine classname="gui.SnapShopGUI" sourcefile="SnapShopGUI.java" sourcepath="gui/SnapShopGUI.java"/>
+    </Class>
+    <Method classname="gui.SnapShopGUI" name="createAndShowGui" signature="()V" isStatic="true">
+      <SourceLine classname="gui.SnapShopGUI" start="151" end="181" startBytecode="0" endBytecode="225" sourcefile="SnapShopGUI.java" sourcepath="gui/SnapShopGUI.java"/>
+    </Method>
+    <SourceLine classname="gui.SnapShopGUI" start="164" end="164" startBytecode="71" endBytecode="71" sourcefile="SnapShopGUI.java" sourcepath="gui/SnapShopGUI.java"/>
+    <SourceLine classname="gui.SnapShopGUI" start="164" end="164" startBytecode="71" endBytecode="71" sourcefile="SnapShopGUI.java" sourcepath="gui/SnapShopGUI.java"/>
+  </BugInstance>
+  <BugInstance type="ICAST_IDIV_CAST_TO_DOUBLE" priority="2" rank="17" abbrev="ICAST" category="STYLE" first="1">
+    <Class classname="gui.SnapShopGUI">
+      <SourceLine classname="gui.SnapShopGUI" sourcefile="SnapShopGUI.java" sourcepath="gui/SnapShopGUI.java"/>
+    </Class>
+    <Method classname="gui.SnapShopGUI" name="lambda$0" signature="(Ljavax/swing/JFrame;Ljava/beans/PropertyChangeEvent;)V" isStatic="true">
+      <SourceLine classname="gui.SnapShopGUI" start="171" end="179" startBytecode="0" endBytecode="168" sourcefile="SnapShopGUI.java" sourcepath="gui/SnapShopGUI.java"/>
+    </Method>
+    <SourceLine classname="gui.SnapShopGUI" start="176" end="176" startBytecode="55" endBytecode="55" sourcefile="SnapShopGUI.java" sourcepath="gui/SnapShopGUI.java"/>
+    <SourceLine classname="gui.SnapShopGUI" start="176" end="176" startBytecode="55" endBytecode="55" sourcefile="SnapShopGUI.java" sourcepath="gui/SnapShopGUI.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 8 Feb 2021 15:01:00 -0800" total_classes="14" referenced_classes="333" total_bugs="2" total_size="318" num_packages="3" java_version="14.0.2" vm_version="14.0.2+12-46" cpu_seconds="24.17" clock_seconds="2.80" peak_mbytes="875.28" alloc_mbytes="2048.00" gc_seconds="0.14" priority_2="2">
+    <PackageStats package="filters" total_bugs="0" total_types="10" total_size="154">
+      <ClassStats class="filters.AbstractFilter" sourceFile="AbstractFilter.java" interface="false" size="66" bugs="0"/>
+      <ClassStats class="filters.AbstractWeightedFilter" sourceFile="AbstractWeightedFilter.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="filters.EdgeDetectFilter" sourceFile="EdgeDetectFilter.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="filters.EdgeHighlightFilter" sourceFile="EdgeHighlightFilter.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="filters.Filter" sourceFile="Filter.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="filters.FlipHorizontalFilter" sourceFile="FlipHorizontalFilter.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="filters.FlipVerticalFilter" sourceFile="FlipVerticalFilter.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="filters.GrayscaleFilter" sourceFile="GrayscaleFilter.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="filters.SharpenFilter" sourceFile="SharpenFilter.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="filters.SoftenFilter" sourceFile="SoftenFilter.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="gui" total_bugs="2" total_types="2" total_size="83" priority_2="2">
+      <ClassStats class="gui.SnapShopGUI" sourceFile="SnapShopGUI.java" interface="false" size="76" bugs="2" priority_2="2"/>
+      <ClassStats class="gui.SnapShopMain" sourceFile="SnapShopMain.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="image" total_bugs="0" total_types="2" total_size="81">
+      <ClassStats class="image.Pixel" sourceFile="Pixel.java" interface="false" size="38" bugs="0"/>
+      <ClassStats class="image.PixelImage" sourceFile="PixelImage.java" interface="false" size="43" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="591" invocations="1655" avgMicrosecondsPerInvocation="357" maxMicrosecondsPerInvocation="15732" standardDeviationMicrosecondsPerInvocation="1025"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="303" invocations="2" avgMicrosecondsPerInvocation="151953" maxMicrosecondsPerInvocation="255029" standardDeviationMicrosecondsPerInvocation="103076"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="270" invocations="333" avgMicrosecondsPerInvocation="811" maxMicrosecondsPerInvocation="12783" standardDeviationMicrosecondsPerInvocation="1507"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="261" invocations="333" avgMicrosecondsPerInvocation="786" maxMicrosecondsPerInvocation="17383" standardDeviationMicrosecondsPerInvocation="1653"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="254" invocations="803" avgMicrosecondsPerInvocation="317" maxMicrosecondsPerInvocation="21424" standardDeviationMicrosecondsPerInvocation="926"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="190" invocations="1659" avgMicrosecondsPerInvocation="114" maxMicrosecondsPerInvocation="13810" standardDeviationMicrosecondsPerInvocation="512"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="109" invocations="333" avgMicrosecondsPerInvocation="327" maxMicrosecondsPerInvocation="6062" standardDeviationMicrosecondsPerInvocation="662"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="105" invocations="333" avgMicrosecondsPerInvocation="317" maxMicrosecondsPerInvocation="15879" standardDeviationMicrosecondsPerInvocation="1257"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ReflectiveClasses" totalMilliseconds="61" invocations="333" avgMicrosecondsPerInvocation="183" maxMicrosecondsPerInvocation="2692" standardDeviationMicrosecondsPerInvocation="386"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1612825263905" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

@@ -1,0 +1,155 @@
+package code;
+
+
+
+import java.text.DecimalFormat; // to format the output
+import java.util.Scanner;
+
+
+
+
+
+/**
+ * Homework 3 <br>
+ * Simulating a purchase in Canada paid in US dollars
+ * 
+ * @author <your name here>
+ */
+
+public class CanadianGiftShop {
+
+	// Constants
+	/** Exchange rate 1 US dollar = RATE Canadian dollar */
+	public final double RATE = 1.16;
+
+	/** Price of a jar of maple syrup in Canadian dollars before taxes */
+	public final double JAR_PRICE = 5.95;
+
+	/**
+	 * Price of photograph of the city of Victoria in Canadian dollars before
+	 * taxes
+	 */
+	public final double PHOTO_PRICE = 7.65;
+
+	/** Price of a beaver hat in Canadian dollars before taxes */
+	public final double HAT_PRICE = 16.35;
+
+	/** Maximum allowed number of purchased items for each item */
+	public final int MAX_ITEM = 100;
+
+	/** Tax rate */
+	public final double TAX_RATE = 0.093;
+	
+	int a = 0;
+
+	Scanner myInput = new Scanner( System.in );
+	// instance variables
+	// number of purchased jars of maple syrup
+	private int jarNumber;
+
+	// number of purchased photographs of the city of Victoria
+	private int photoNumber;
+
+	// number of purchased beaver hats
+	private int hatNumber;
+	
+	double payUS;
+
+	// 2 digits after the decimal point for doubles
+	private DecimalFormat twoDigits = new DecimalFormat("0.00");
+	
+	private double payUSA, payCA;
+
+	/**
+	 * Takes and processes the order from the customer
+	 */
+	public void takeAndProcessOrder() {
+		
+		itemList();
+		
+		input();
+		
+		changeinCAD(payUSA, 50.23);
+		// Here is a possible series of steps: call some other (private)
+		// methods to do each step.
+
+		// Display the items and their prices
+
+		// Get the Customer's order
+
+		// Get the user's USD payment
+
+		// Give the change back in Canadian dollars
+	}
+
+	// Some ideas for some private methods
+	// You don't have to use exactly these same methods.
+
+	/**
+	 * Displays the items for sale and their prices in Canadian dollars
+	 */
+	private void itemList() {
+		System.out.println("jar of maple syrup at $" + JAR_PRICE + " canadian dollars.");
+		System.out.println("photograph of Victoria at $" +  PHOTO_PRICE + " canadian dollars.");
+		System.out.println("beaver hat at $" +  HAT_PRICE + " canadian dollars.");
+		System.out.println("The above prices don't include taxes. The tax rate is 9.30%");
+		System.out.println("Our exchange rate is 1 US dollar =1.16 Canadian dollars");
+	}
+
+	/**
+	 * Gets the customer's order Precondition: none Postcondition: jarNumber,
+	 * photoNumber and hatNumber are initialized to a value between 0 and
+	 * MAX_ITEM
+	 */
+	private void input() {
+		
+			
+	}
+	
+	
+
+	/**
+	 * Given a purchase in canadian dollars and a payment in US dollars,
+	 * displays the change amount in canadian dollars and cents
+	 * 
+	 * @param payUS
+	 *            payment in US dollars
+	 * @param costCA
+	 *            purchase amount in Canadia dollars
+	 */
+	private void changeinCAD(double payUS, double costCA) {
+		
+		double pennies = costCA;
+		
+		int twenties = (int) Math.round(pennies/20);
+        		pennies = pennies%20;
+        if (twenties > 0) {
+        	System.out.println(twenties + " $20 bills");
+        }
+        
+        int fives = (int) Math.round(pennies / 5);
+        	pennies = pennies%5;
+        	
+        int aDollar = (int) Math.round(pennies / 1);
+        pennies = pennies%1;
+        
+        int quarter = (int) Math.round(pennies/.25);
+        pennies = pennies % .25;
+        
+        int dimes = (int) Math.round(pennies / .1);
+        pennies = pennies%.1;
+        
+        pennies = (int) Math.round(pennies / .01);
+        
+        
+        
+	}
+
+	/**
+	 * Entry point of the program
+	 */
+	public static void main(String[] args) {
+		new CanadianGiftShop().takeAndProcessOrder();
+	}
+
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.0" sequence="1" timestamp="1609821061806" analysisTimestamp="1609821061211" release="">
+  <Project projectName="username-orientation">
+    <Jar>C:\Users\nle01\eclipse-workspace\username-orientation\bin</Jar>
+    <AuxClasspathEntry>C:\Users\nle01\eclipse-workspace\username-orientation\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\nle01\eclipse-workspace\username-orientation\src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 4 Jan 2021 20:31:01 -0800" total_classes="0" referenced_classes="0" total_bugs="0" total_size="0" num_packages="0" java_version="15.0.1" vm_version="15.0.1+9-18" cpu_seconds="4.14" clock_seconds="0.60" peak_mbytes="432.98" alloc_mbytes="2048.00" gc_seconds="0.05">
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="364" invocations="2" avgMicrosecondsPerInvocation="182481" maxMicrosecondsPerInvocation="264812" standardDeviationMicrosecondsPerInvocation="82331"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="131" invocations="153" avgMicrosecondsPerInvocation="860" maxMicrosecondsPerInvocation="17209" standardDeviationMicrosecondsPerInvocation="1939"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1609821061804" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

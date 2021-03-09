@@ -1,0 +1,106 @@
+package model;
+
+import java.math.BigDecimal;  
+import java.util.HashMap;
+
+/**
+ * Cart class that contain all the items and their quantities.
+ * 
+ * <p>Cart class can add item, renew item quantity or clear out cart
+ * 
+ * <p>Cart class can calculate the total price of the entire cart.
+ * 
+ * @author nle01
+ * @version Winter 2021
+ */
+
+public class Cart {
+
+        private HashMap<Item, Integer> itemList;
+        private boolean isMembership;
+        private BigDecimal totalPrice = new BigDecimal(0);
+        
+    /**
+     * Constructor to create Cart object and initiate itemList.
+     */
+        
+    public Cart() {
+        itemList = new HashMap<Item, Integer>();
+    }
+    
+    /**
+     * add item into the cart.
+     * 
+     * @param theOrder Item and the amount of Item
+     */
+    
+    public void add(final ItemOrder theOrder) {
+        if (itemList.containsKey(theOrder.getItem())) {
+            itemList.replace(theOrder.getItem(), theOrder.getQuantity());
+        } else {
+            itemList.put(theOrder.getItem(), theOrder.getQuantity());
+        }
+    }
+
+    
+    public void setMembership(final boolean theMembership) {
+        isMembership = theMembership;
+    }
+
+    /**
+     * Calculate total value of the Cart object.
+     * 
+     * @return the value of the cart in BidDecimal type
+     */
+
+    public BigDecimal calculateTotal() {
+        final BigDecimal zero = BigDecimal.valueOf(0);
+        totalPrice = zero;
+        
+        itemList.forEach((k, v) -> {
+            if (isMembership) {
+                if (k.isBulk()) {
+                    totalPrice = totalPrice.add(k.getBulkPrice().multiply
+                                                (BigDecimal.valueOf(v / k.getBulkQuantity())));
+                    totalPrice = totalPrice.add(k.getPrice().multiply
+                                                (BigDecimal.valueOf(v % k.getBulkQuantity())));
+                } else {
+                    totalPrice = totalPrice.add(k.getPrice().multiply(BigDecimal.valueOf(v)));
+                }
+            } else {
+                totalPrice = totalPrice.add(k.getPrice().multiply(BigDecimal.valueOf(v)));
+            }
+        });
+        return totalPrice;
+    }
+    
+    /**
+     * Empty the Cart object.
+     */
+    
+    public void clear() {
+        itemList.clear();
+    }
+    
+    /**
+     * get the number of items in the card.
+     * @return the number of items
+     */
+    public int getCartSize() {
+        return itemList.size();
+    }
+
+
+    @Override
+    public String toString() {
+        final StringBuilder list = new StringBuilder();
+        
+        itemList.forEach((k, v) -> {
+            list.append(v);
+            list.append(" " + k.toString() + System.lineSeparator());
+        });
+        
+        return list.toString();
+    }
+
+}

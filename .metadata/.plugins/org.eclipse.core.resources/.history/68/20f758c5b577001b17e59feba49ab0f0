@@ -1,0 +1,59 @@
+package code;
+
+import java.util.concurrent.CountDownLatch;
+
+/**
+ * Homework 3 <br>
+ * Simulating a purchase in Canada paid in US dollars
+ * 
+ * @author <your name here>
+ */
+
+public class CanadianGiftShop {
+
+//	public static void drawTriangle() {
+//		int n = 10;
+//		for (int i = 0; i < n; i++) {
+//			for (int j = 0; j < n; j++) {
+//				if (j <= i) {
+//					System.out.print("*");
+//				}
+//			}
+//			System.out.println();
+//		}
+//	}
+
+	public static void drawTriangle2() {
+		int n = 10;
+		int count = 0;
+		for (int i = 0; i < 5; i++) {
+			
+			for (int j = 0; j < 9; j++) {
+				if ((j >= n - 2*i -2)&& (j <= n - i - 2) )  {
+					System.out.print("*");
+				}
+				else {
+					System.out.print(" ");
+				}
+			}
+			System.out.println();
+			count = count + 1;
+		}
+	}
+	
+	/**
+	 * Entry point of the program
+	 */
+	public static void main(String[] args) {
+		
+		int b = 4096;
+		
+		for (int i = 0; i < 6; i++) {
+			System.out.print(b + " ");
+			b = b /4;
+		}
+		System.out.println();
+		drawTriangle2();
+	}
+
+}

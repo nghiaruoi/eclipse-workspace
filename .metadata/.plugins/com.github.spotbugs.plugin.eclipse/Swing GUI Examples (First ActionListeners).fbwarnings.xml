@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.1" sequence="1" timestamp="1614592941428" analysisTimestamp="1614592936523" release="">
+  <Project projectName="Swing GUI Examples (First ActionListeners)">
+    <Jar>C:\Users\nle01\eclipse-workspace\Swing GUI Examples (First ActionListeners)\bin</Jar>
+    <AuxClasspathEntry>C:\Users\nle01\eclipse-workspace\Swing GUI Examples (First ActionListeners)\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\nle01\eclipse-workspace\Swing GUI Examples (First ActionListeners)\src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 1 Mar 2021 02:02:16 -0800" total_classes="5" referenced_classes="294" total_bugs="0" total_size="136" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="46.84" clock_seconds="4.91" peak_mbytes="1087.29" alloc_mbytes="2048.00" gc_seconds="0.34">
+    <PackageStats package="view" total_bugs="0" total_types="5" total_size="136">
+      <ClassStats class="view.HelloGoodBye" sourceFile="HelloGoodBye.java" interface="false" size="64" bugs="0"/>
+      <ClassStats class="view.HelloGoodBye$1" sourceFile="HelloGoodBye.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="view.HelloGoodBye$1MyGoodByeListener" sourceFile="HelloGoodBye.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="view.HelloGoodBye$MyHelloListener" sourceFile="HelloGoodBye.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="view.HelloGoodByeEmpty" sourceFile="HelloGoodByeEmpty.java" interface="false" size="51" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="1327" invocations="2" avgMicrosecondsPerInvocation="663583" maxMicrosecondsPerInvocation="1167343" standardDeviationMicrosecondsPerInvocation="503760"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="936" invocations="1558" avgMicrosecondsPerInvocation="601" maxMicrosecondsPerInvocation="64571" standardDeviationMicrosecondsPerInvocation="2994"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="513" invocations="1562" avgMicrosecondsPerInvocation="328" maxMicrosecondsPerInvocation="48411" standardDeviationMicrosecondsPerInvocation="2118"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="378" invocations="294" avgMicrosecondsPerInvocation="1288" maxMicrosecondsPerInvocation="65169" standardDeviationMicrosecondsPerInvocation="4558"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="341" invocations="294" avgMicrosecondsPerInvocation="1160" maxMicrosecondsPerInvocation="23458" standardDeviationMicrosecondsPerInvocation="2592"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="199" invocations="632" avgMicrosecondsPerInvocation="316" maxMicrosecondsPerInvocation="13626" standardDeviationMicrosecondsPerInvocation="668"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1614592941428" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

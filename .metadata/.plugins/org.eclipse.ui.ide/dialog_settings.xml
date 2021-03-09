@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+			<item value="C:\Users\nle01\eclipse-workspace\nlebeo-bookstore"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\nle01\Google Drive\TCSS 305 Programming Pract\Assignment 5\2D Graphics and Animation.zip"/>
+			<item value="C:\Users\nle01\Google Drive\TCSS 305 Programming Pract\Assignment 4\ODP PCL (Time) V2.2.zip"/>
+			<item value="C:\Users\nle01\Google Drive\TCSS 305 Programming Pract\Assignment 4\ODP PCL (Time) V1.0.zip"/>
+			<item value="C:\Users\nle01\Google Drive\TCSS 305 Programming Pract\Assignment 4\hw4-project.zip"/>
+			<item value="C:\Users\nle01\Google Drive\TCSS 305 Programming Pract\Assignment 3\Swing ToolBar and FileMenu.zip"/>
+			<item value="C:\Users\nle01\Google Drive\TCSS 305 Programming Pract\Assignment 3\Swing Listener Examples.zip"/>
+			<item value="C:\Users\nle01\Google Drive\TCSS 305 Programming Pract\Assignment 3\Swing Layout Examples.zip"/>
+			<item value="C:\Users\nle01\Google Drive\TCSS 305 Programming Pract\Assignment 3\hw3-project.zip"/>
+			<item value="C:\Users\nle01\Google Drive\TCSS 305 Programming Pract\Assignment 2\hw2-project.zip"/>
+			<item value="C:\Users\nle01\Google Drive\TCSS 305 Programming Pract\Point Example with UnitTest.zip"/>
+			<item value="C:\Users\nle01\Google Drive\TCSS 305 Programming Pract\Assignment 1\hw1-project.zip"/>
+			<item value="C:\Users\nle01\Downloads\Compressed\hw0-project.zip"/>
+		</list>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\nle01\eclipse-workspace\nlebeo-orientation"/>
+			<item value="C:\Users\nle01\eclipse-workspace\nlebeo-roadrage"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+</section>

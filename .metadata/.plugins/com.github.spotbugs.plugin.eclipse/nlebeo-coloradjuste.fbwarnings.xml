@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.1" sequence="1" timestamp="1614467229014" analysisTimestamp="1614467227960" release="">
+  <Project projectName="nlebeo-coloradjuste">
+    <Jar>C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuste\bin</Jar>
+    <AuxClasspathEntry>C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuste\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuste\src</SrcDir>
+  </Project>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="1">
+    <Class classname="contoller.BlueRowPanel">
+      <SourceLine classname="contoller.BlueRowPanel" sourcefile="BlueRowPanel.java" sourcepath="contoller/BlueRowPanel.java"/>
+    </Class>
+    <Field classname="contoller.BlueRowPanel" name="DECREASE_COLOR" signature="I" isStatic="false">
+      <SourceLine classname="contoller.BlueRowPanel" sourcefile="BlueRowPanel.java" sourcepath="contoller/BlueRowPanel.java"/>
+    </Field>
+    <SourceLine classname="contoller.BlueRowPanel" start="74" end="74" startBytecode="11" endBytecode="11" sourcefile="BlueRowPanel.java" sourcepath="contoller/BlueRowPanel.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="1">
+    <Class classname="contoller.BlueRowPanel">
+      <SourceLine classname="contoller.BlueRowPanel" sourcefile="BlueRowPanel.java" sourcepath="contoller/BlueRowPanel.java"/>
+    </Class>
+    <Field classname="contoller.BlueRowPanel" name="INCREASE_COLOR" signature="I" isStatic="false">
+      <SourceLine classname="contoller.BlueRowPanel" sourcefile="BlueRowPanel.java" sourcepath="contoller/BlueRowPanel.java"/>
+    </Field>
+    <SourceLine classname="contoller.BlueRowPanel" start="71" end="71" startBytecode="6" endBytecode="6" sourcefile="BlueRowPanel.java" sourcepath="contoller/BlueRowPanel.java"/>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD_STORE" priority="2" rank="16" abbrev="Se" category="BAD_PRACTICE" first="1">
+    <Class classname="contoller.ColorController">
+      <SourceLine classname="contoller.ColorController" sourcefile="ColorController.java" sourcepath="contoller/ColorController.java"/>
+    </Class>
+    <Field classname="contoller.ColorController" name="myColor" signature="Lmodel/PropertyChangeEnabledMutableColor;" isStatic="false">
+      <SourceLine classname="contoller.ColorController" sourcefile="ColorController.java" sourcepath="contoller/ColorController.java"/>
+    </Field>
+    <Type descriptor="Lmodel/ColorModel;" role="TYPE_FOUND">
+      <SourceLine classname="model.ColorModel" start="62" end="206" sourcefile="ColorModel.java" sourcepath="model/ColorModel.java"/>
+    </Type>
+    <SourceLine classname="contoller.ColorController" start="77" end="77" startBytecode="33" endBytecode="33" sourcefile="ColorController.java" sourcepath="contoller/ColorController.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="1">
+    <Class classname="contoller.GreenRowPanel">
+      <SourceLine classname="contoller.GreenRowPanel" sourcefile="GreenRowPanel.java" sourcepath="contoller/GreenRowPanel.java"/>
+    </Class>
+    <Field classname="contoller.GreenRowPanel" name="DECREASE_COLOR" signature="I" isStatic="false">
+      <SourceLine classname="contoller.GreenRowPanel" sourcefile="GreenRowPanel.java" sourcepath="contoller/GreenRowPanel.java"/>
+    </Field>
+    <SourceLine classname="contoller.GreenRowPanel" start="74" end="74" startBytecode="11" endBytecode="11" sourcefile="GreenRowPanel.java" sourcepath="contoller/GreenRowPanel.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="1">
+    <Class classname="contoller.GreenRowPanel">
+      <SourceLine classname="contoller.GreenRowPanel" sourcefile="GreenRowPanel.java" sourcepath="contoller/GreenRowPanel.java"/>
+    </Class>
+    <Field classname="contoller.GreenRowPanel" name="INCREASE_COLOR" signature="I" isStatic="false">
+      <SourceLine classname="contoller.GreenRowPanel" sourcefile="GreenRowPanel.java" sourcepath="contoller/GreenRowPanel.java"/>
+    </Field>
+    <SourceLine classname="contoller.GreenRowPanel" start="71" end="71" startBytecode="6" endBytecode="6" sourcefile="GreenRowPanel.java" sourcepath="contoller/GreenRowPanel.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sat, 27 Feb 2021 15:07:07 -0800" total_classes="11" referenced_classes="317" total_bugs="5" total_size="591" num_packages="4" java_version="14.0.2" vm_version="14.0.2+12-46" cpu_seconds="4.66" clock_seconds="1.05" peak_mbytes="1316.25" alloc_mbytes="2048.00" gc_seconds="0.05" priority_2="5">
+    <PackageStats package="" total_bugs="0" total_types="2" total_size="22">
+      <ClassStats class="Application" sourceFile="Application.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="Application$1" sourceFile="Application.java" interface="false" size="6" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="contoller" total_bugs="5" total_types="5" total_size="448" priority_2="5">
+      <ClassStats class="contoller.BlueRowPanel" sourceFile="BlueRowPanel.java" interface="false" size="126" bugs="2" priority_2="2"/>
+      <ClassStats class="contoller.ColorController" sourceFile="ColorController.java" interface="false" size="57" bugs="1" priority_2="1"/>
+      <ClassStats class="contoller.ColorController$1" sourceFile="ColorController.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="contoller.GreenRowPanel" sourceFile="GreenRowPanel.java" interface="false" size="127" bugs="2" priority_2="2"/>
+      <ClassStats class="contoller.RedRowPanel" sourceFile="RedRowPanel.java" interface="false" size="124" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="model" total_bugs="0" total_types="3" total_size="101">
+      <ClassStats class="model.ColorModel" sourceFile="ColorModel.java" interface="false" size="81" bugs="0"/>
+      <ClassStats class="model.MutableColor" sourceFile="MutableColor.java" interface="true" size="10" bugs="0"/>
+      <ClassStats class="model.PropertyChangeEnabledMutableColor" sourceFile="PropertyChangeEnabledMutableColor.java" interface="true" size="10" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="view" total_bugs="0" total_types="1" total_size="20">
+      <ClassStats class="view.ColorPanel" sourceFile="ColorPanel.java" interface="false" size="20" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="190" invocations="1638" avgMicrosecondsPerInvocation="116" maxMicrosecondsPerInvocation="3176" standardDeviationMicrosecondsPerInvocation="257"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="155" invocations="317" avgMicrosecondsPerInvocation="490" maxMicrosecondsPerInvocation="75588" standardDeviationMicrosecondsPerInvocation="4254"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="96" invocations="1642" avgMicrosecondsPerInvocation="58" maxMicrosecondsPerInvocation="11416" standardDeviationMicrosecondsPerInvocation="281"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="79" invocations="317" avgMicrosecondsPerInvocation="249" maxMicrosecondsPerInvocation="3945" standardDeviationMicrosecondsPerInvocation="479"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="64" invocations="2" avgMicrosecondsPerInvocation="32323" maxMicrosecondsPerInvocation="49118" standardDeviationMicrosecondsPerInvocation="16795"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="43" invocations="688" avgMicrosecondsPerInvocation="63" maxMicrosecondsPerInvocation="700" standardDeviationMicrosecondsPerInvocation="66"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="41" invocations="317" avgMicrosecondsPerInvocation="130" maxMicrosecondsPerInvocation="24901" standardDeviationMicrosecondsPerInvocation="1397"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindBugsSummaryStats" totalMilliseconds="32" invocations="317" avgMicrosecondsPerInvocation="102" maxMicrosecondsPerInvocation="32157" standardDeviationMicrosecondsPerInvocation="1803"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="29" invocations="317" avgMicrosecondsPerInvocation="92" maxMicrosecondsPerInvocation="1671" standardDeviationMicrosecondsPerInvocation="174"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1614467229014" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.1" sequence="1" timestamp="1614592941523" analysisTimestamp="1614592936720" release="">
+  <Project projectName="Swing GUI Examples (ToolBar, ColorChooser, FIle Menu)">
+    <Jar>C:\Users\nle01\eclipse-workspace\Swing GUI Examples (ToolBar, ColorChooser, FIle Menu)\bin</Jar>
+    <AuxClasspathEntry>C:\Users\nle01\eclipse-workspace\Swing GUI Examples (ToolBar, ColorChooser, FIle Menu)\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\nle01\eclipse-workspace\Swing GUI Examples (ToolBar, ColorChooser, FIle Menu)\src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 1 Mar 2021 02:02:16 -0800" total_classes="12" referenced_classes="328" total_bugs="0" total_size="335" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="46.30" clock_seconds="4.80" peak_mbytes="1087.99" alloc_mbytes="2048.00" gc_seconds="0.34">
+    <PackageStats package="examples" total_bugs="0" total_types="12" total_size="335">
+      <ClassStats class="examples.BlankArea" sourceFile="BlankArea.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="examples.MenuExample" sourceFile="MenuExample.java" interface="false" size="123" bugs="0"/>
+      <ClassStats class="examples.MenuExample$1" sourceFile="MenuExample.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="examples.MenuExample$2" sourceFile="MenuExample.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="examples.MenuExample$3" sourceFile="MenuExample.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="examples.MenuExample$4" sourceFile="MenuExample.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="examples.MenuExample$5" sourceFile="MenuExample.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="examples.MenuExample$6" sourceFile="MenuExample.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="examples.MenuExample$MyMouseInputAdapter" sourceFile="MenuExample.java" interface="false" size="28" bugs="0"/>
+      <ClassStats class="examples.ToolBarExampleSimple" sourceFile="ToolBarExampleSimple.java" interface="false" size="82" bugs="0"/>
+      <ClassStats class="examples.ToolBarExampleSimple$1" sourceFile="ToolBarExampleSimple.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="examples.ToolBarExampleSimple$MyMouseInputAdapter" sourceFile="ToolBarExampleSimple.java" interface="false" size="28" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="1540" invocations="2" avgMicrosecondsPerInvocation="770092" maxMicrosecondsPerInvocation="1162305" standardDeviationMicrosecondsPerInvocation="392213"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="834" invocations="1657" avgMicrosecondsPerInvocation="503" maxMicrosecondsPerInvocation="47842" standardDeviationMicrosecondsPerInvocation="2189"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="355" invocations="328" avgMicrosecondsPerInvocation="1085" maxMicrosecondsPerInvocation="22483" standardDeviationMicrosecondsPerInvocation="2469"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="311" invocations="1661" avgMicrosecondsPerInvocation="187" maxMicrosecondsPerInvocation="30795" standardDeviationMicrosecondsPerInvocation="847"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="282" invocations="328" avgMicrosecondsPerInvocation="861" maxMicrosecondsPerInvocation="14214" standardDeviationMicrosecondsPerInvocation="1723"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="205" invocations="691" avgMicrosecondsPerInvocation="297" maxMicrosecondsPerInvocation="9688" standardDeviationMicrosecondsPerInvocation="490"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="132" invocations="328" avgMicrosecondsPerInvocation="402" maxMicrosecondsPerInvocation="9389" standardDeviationMicrosecondsPerInvocation="938"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1614592941523" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

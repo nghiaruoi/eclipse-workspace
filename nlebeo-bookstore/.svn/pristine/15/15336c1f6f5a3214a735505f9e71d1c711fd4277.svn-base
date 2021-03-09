@@ -1,0 +1,173 @@
+package tests;
+
+import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertAll;
+
+import java.math.BigDecimal;
+import model.Item;
+import model.ItemOrder;
+import org.junit.Before;
+import org.junit.Test;
+
+/**
+ * Tests of the Item class.
+ * 
+ * @author Nghia (Tony) Le
+ * @version Winter 2021
+ *
+ */
+public class ItemTest {
+    
+    
+    
+    /** An Item will be used in the test. */
+    private Item myItem;
+    
+    /** An Item with Bulk sale will be used in the test. */
+    private Item myBulkItem;
+    
+    /**
+     * A method to initialize the test fixture before each test.
+     */
+    @Before
+    public void setUp() {
+        myItem = new Item("simple test", new BigDecimal("1.99"));
+        myBulkItem = new Item("test", new BigDecimal("2.99") , 5, new BigDecimal("9.99"));
+    }
+    
+    /**
+     * Test method to throw exception when item name is null.
+     */
+    
+    @Test 
+    public void testItemItemNPE() {
+        assertThrows(NullPointerException.class, () -> new Item(null, new BigDecimal("1.99")));
+    }
+    
+    /**
+     * Test method to check for any negative price.
+     */
+    
+    @Test 
+    public void testItemItemIAE() {
+        
+        assertThrows(IllegalArgumentException.class, 
+            () -> new Item("test", new BigDecimal("-1.99")));
+        
+        assertThrows(IllegalArgumentException.class, 
+            () -> new Item("test", new BigDecimal("-1.99"), 5, new BigDecimal("2.99")));
+        
+        assertThrows(IllegalArgumentException.class, 
+            () -> new Item("test", new BigDecimal("1.99"), -1, new BigDecimal("2.99")));
+        
+        assertThrows(IllegalArgumentException.class, 
+            () -> new Item("test", new BigDecimal("1.99"), 5, new BigDecimal("-2.99")));
+    }
+    
+    /**
+     * Test method to check whether item can be sold in bulk.
+     */
+    
+    @Test
+    public void testIsBulk() {
+        assertFalse(myItem.isBulk());
+        assertTrue(myBulkItem.isBulk());
+    }
+    
+    /**
+     * Simple test for getPrice method.
+     */
+    
+    @Test
+    public void testGetPrice() {
+        assertEquals(myItem.getPrice(), new BigDecimal("1.99"));
+        assertEquals(myBulkItem.getPrice(), new BigDecimal("2.99"));
+    }
+    
+    /**
+     * Simple test to test getBulkQuantity method.
+     */
+    
+    @Test
+    public void testGetBulkQuantity() {
+        assertEquals(myBulkItem.getBulkQuantity(), 5);
+    }
+    
+    /**
+     * Test for getBulkPrice method.
+     */
+    @Test
+    public void testGetBulkPrice() {
+        assertEquals(myBulkItem.getBulkPrice(), new BigDecimal("9.99"));
+    }
+    
+    /**
+     * Test for toString method. Testing the out put with a sample string.
+     */
+    @Test
+    public void testToString() {
+        assertEquals(myItem.toString(), "simple test, $1.99");
+        assertEquals(myBulkItem.toString(), "test, $2.99 (5 for $9.99)");
+    }
+    
+    /**
+     * Test all possible cases for equals method.
+     */
+    
+    @Test
+    public void testEquals() {
+        final Item testItem = new Item("simple test", new BigDecimal("1.99"));
+        final Item testBulkItem = 
+                        new Item("test", new BigDecimal("2.99") , 5, new BigDecimal("9.99"));
+        final ItemOrder testItemOrder = new ItemOrder(myItem, 5);
+        
+        assertAll(() -> assertEquals(myItem, myItem),
+                  
+            () -> assertFalse(myItem.equals(testItemOrder)),
+                  
+            () -> assertNotEquals(myItem, null),
+        
+            () -> assertNotEquals(myItem, testBulkItem),
+            
+            () -> assertEquals(myItem, testItem),
+            
+            () -> assertEquals(testItem, myItem),
+            
+            () -> assertEquals(myBulkItem, testBulkItem),
+            
+            () -> assertEquals(testBulkItem, myBulkItem),
+            
+            () -> assertFalse(myItem.equals(new Item("simple", new BigDecimal("1.99")))),
+            
+            () -> assertFalse(myItem.equals(new Item("simple item", new BigDecimal("0.99")))),
+        
+            () -> assertFalse(myBulkItem.equals(
+                new Item("test", new BigDecimal("2.99"), 4, new BigDecimal("9.99")))),
+                              
+            () -> assertFalse(myBulkItem.equals(
+                new Item("test", new BigDecimal("2.99"), 5, new BigDecimal("8.99")))),
+            
+            () -> assertFalse(myBulkItem.equals(
+                new Item("simple test", new BigDecimal("2.99"), 5, new BigDecimal("9.99")))),
+            
+            () -> assertFalse(myBulkItem.equals(
+                new Item("test", new BigDecimal("1.99"), 5, new BigDecimal("9.99")))),
+        
+            () -> assertTrue(myItem.hashCode() == testItem.hashCode()));
+    }
+    
+    /**
+     * Test Unit for orderByPrice method.
+     */
+    
+    @Test
+    public void testOrderByPrice() {
+        
+        final Item testItem = new Item("test item", new BigDecimal("2.99"));
+        
+        assertTrue(myItem.orderByPrice(testItem) < 0);
+        
+    }
+    
+}
+

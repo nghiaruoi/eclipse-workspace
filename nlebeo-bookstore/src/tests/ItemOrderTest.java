@@ -1,0 +1,97 @@
+package tests;
+
+import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertAll;
+
+import java.math.BigDecimal;
+import model.Item;
+import model.ItemOrder;
+import org.junit.Before;
+import org.junit.Test;
+
+/**
+ * test class for ItemOrder class, test all the methods in ItemOrder.
+ * 
+ * @author Tony Le
+ * @version winter 2021
+ */
+public class ItemOrderTest {
+    
+    /** create item with and without bulk quantity for ItemOrder object. */
+    private Item myItem;
+    
+    /** initiate ItemOrder object with and without bulk quantity. */
+    private ItemOrder myItemOrder;
+    
+    /**
+     * method to run before every test to create ItemOrder object.
+     */
+    @Before
+    public void setUp() {
+        myItem = new Item("simple test", new BigDecimal("1.99"));
+        myItemOrder = new ItemOrder(myItem, 5);
+    }
+    
+    /**
+     * Test validity of argument, 
+     * throw IllegalArgumentException when item quantity is negative.
+     */
+    
+    @Test
+    public void testItemOrderIAE() {
+        assertThrows("Item quantity can not be negative", IllegalArgumentException.class, 
+            () -> new ItemOrder(myItem, -5));
+    }
+    
+    /**
+     * Test validity of argument, throw NullPointerException when input is null.
+     */
+    
+    @Test
+    public void testItemOrderNPE() {
+        assertThrows("Item can not be null", NullPointerException.class,
+            () -> new ItemOrder(null, 5));
+    }
+    
+    /**
+     * Test for getter method, test whether the method return an Item object.
+     */
+    
+    @Test
+    public void testGetItem() {
+        final Item testItem = new Item("simple test", new BigDecimal("1.99"));
+        
+        assertSame("Item getter does not work", 
+            myItemOrder.getItem().getClass(), testItem.getClass());
+    }
+    
+    /**
+     * Test for quantity getter method,  test whether the method return the quantity 
+     * of the Items.
+     */
+    @Test
+    public void testGetQuantity() {
+        assertSame("Quantity getter does not work", myItemOrder.getQuantity(), 5);
+    }
+    
+    /**
+     * Test for toString method, check on all 3 cases, 1 item, multiple items, and no item.
+     */
+    @Test
+    public void testToString() {
+        final String testStringSingle = "1 " + myItem;
+        final String testStringMultiple = "5" + " " + myItem + "s";
+        final ItemOrder testItemOrder = new ItemOrder(myItem, 1);
+        final ItemOrder testNoItem = new ItemOrder(myItem, 0);
+        
+        assertAll(
+            () -> assertEquals("toString method is not working!", 
+                               myItemOrder.toString(), testStringMultiple),
+            
+            () -> assertEquals("toString method is not working!", 
+                               testItemOrder.toString(), testStringSingle),
+            
+            () -> assertEquals("toString method is not working!", 
+                               "There is no item", testNoItem.toString()));
+    }
+}

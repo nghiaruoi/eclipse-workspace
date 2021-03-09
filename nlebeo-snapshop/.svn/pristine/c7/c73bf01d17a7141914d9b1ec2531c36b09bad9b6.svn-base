@@ -1,0 +1,183 @@
+/*
+ * TCSS 305 Homework 3: SnapShop
+ * 
+ */
+
+package gui;
+
+import filters.EdgeDetectFilter;
+import filters.EdgeHighlightFilter;
+import filters.Filter;
+import filters.FlipHorizontalFilter;
+import filters.FlipVerticalFilter;
+import filters.GrayscaleFilter;
+import filters.SharpenFilter;
+import filters.SoftenFilter;
+import java.awt.BorderLayout;
+import java.awt.Dimension;
+import java.awt.FlowLayout;
+import java.awt.Toolkit;
+import java.util.ArrayList;
+import java.util.List;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.SwingConstants;
+
+/**
+ * The GUI for SnapShop.
+ * 
+ * @author Marty Stepp
+ * @author Daniel M. Zimmerman
+ * @author Alan Fowler
+ * @author Charles Bryan
+ * @version Winter 2021
+ */
+public class SnapShopGUI extends JPanel {
+
+    /**  A generated serial version UID for object Serialization. */
+    private static final long serialVersionUID = -4860201906562574893L;
+
+    /** The window title. */
+    private static final String TITLE = "TCSS 305 - Assignment 3";
+    
+    /** A ToolKit. */
+    private static final Toolkit KIT = Toolkit.getDefaultToolkit();
+
+    /** The label in which we will display the image. */
+    private JLabel myImageLabel;
+
+    /** The open button. */
+    private JButton myOpenButton;
+
+    /** The save button. */
+    private JButton mySaveButton;
+
+    /** The close button. */
+    private JButton myCloseButton;
+
+    /** The list of filter buttons. */
+    private List<JButton> myFilterButtons;
+
+    /**
+     * Initializes the GUI.
+     */
+    public SnapShopGUI() {
+        setLayout(new BorderLayout());
+        buildComponents();
+        layoutComponents();
+        addEvents();
+    }
+
+    /**
+     * Creates a button to activate the specified filter, on the specified
+     * panel.
+     * 
+     * @param theFilter The filter.
+     * @return the created button.
+     */
+    private JButton createButton(final Filter theFilter) {
+        final JButton button = new JButton(theFilter.getDescription());
+        button.setEnabled(false);
+
+        return button;
+    }
+
+    /**
+     * Instantiate the graphical components (frame, image label, buttons).
+     */
+    private void buildComponents() {
+
+        myImageLabel = new JLabel();
+        
+        // works on frame; top center on panel
+        myImageLabel.setHorizontalAlignment(SwingConstants.CENTER);
+        myImageLabel.setVerticalAlignment(SwingConstants.CENTER);
+       
+        myOpenButton = new JButton("Open...");
+        mySaveButton = new JButton("Save As...");
+        myCloseButton = new JButton("Close Image");
+        
+        // create the filter buttons
+        myFilterButtons = new ArrayList<JButton>();
+        myFilterButtons.add(createButton(new EdgeDetectFilter()));
+        myFilterButtons.add(createButton(new EdgeHighlightFilter()));
+        myFilterButtons.add(createButton(new FlipHorizontalFilter()));
+        myFilterButtons.add(createButton(new FlipVerticalFilter()));
+        myFilterButtons.add(createButton(new GrayscaleFilter()));
+        myFilterButtons.add(createButton(new SharpenFilter()));
+        myFilterButtons.add(createButton(new SoftenFilter()));
+    }
+
+    /**
+     * Sets up the event listeners.
+     */
+    private void addEvents() {
+
+
+    }
+
+    /**
+     * Sets up the graphical components.
+     */
+    private void layoutComponents() {
+
+        // add the filter buttons to a panel
+        final JPanel northPanel = new JPanel(new FlowLayout());
+        for (final JButton button : myFilterButtons) {
+            northPanel.add(button);
+        }
+        add(northPanel, BorderLayout.NORTH);
+
+        // label added directly the Center
+        add(myImageLabel, BorderLayout.CENTER);
+        
+        // south panel to hold the file Open button
+        final JPanel south = new JPanel(new FlowLayout());
+        south.add(myOpenButton);
+        south.add(mySaveButton);
+        south.add(myCloseButton);
+        add(south, BorderLayout.SOUTH);
+    }
+
+    /**
+     * Create the GUI and show it.  For thread safety,
+     * this method should be invoked from the
+     * event-dispatching thread.
+     */
+    public static void createAndShowGui() {
+        final SnapShopGUI mainPanel = 
+                        new SnapShopGUI();
+        
+        // A size for the JFrame.
+        //final Dimension frameSize = new Dimension(400, 400);
+        
+        // set properties of the frame
+        final JFrame window = new JFrame(TITLE);
+        window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        window.setMinimumSize(new Dimension());
+        window.setContentPane(mainPanel);
+        window.pack();
+        window.setMinimumSize(window.getSize());
+        window.setLocation(
+            (int) (KIT.getScreenSize().getWidth() / 2 - window.getWidth() / 2),
+            (int) (KIT.getScreenSize().getHeight() / 2 - window.getHeight() / 2));
+        window.setVisible(true);
+        
+        //For now, ignore what is going on here. We will look at this
+        //pattern in future lectures AND assignments. 
+        mainPanel.myImageLabel.addPropertyChangeListener(theEvent -> {
+            if ("icon".equals(theEvent.getPropertyName())) {
+                window.setMinimumSize(new Dimension());
+                window.pack();
+                window.setMinimumSize(window.getSize());
+                window.setLocation(
+                    (int) (KIT.getScreenSize().getWidth() / 2 - window.getWidth() / 2),
+                    (int) (KIT.getScreenSize().getHeight() / 2 - window.getHeight() / 2));
+            }
+        });
+        
+    }
+
+}

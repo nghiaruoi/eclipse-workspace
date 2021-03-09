@@ -1,0 +1,124 @@
+package tests;
+
+import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertAll;
+
+import java.math.BigDecimal;
+import model.Cart;
+import model.Item;
+import model.ItemOrder;
+import org.junit.Before;
+import org.junit.Test;
+
+/**
+ * Test class for Cart object, test all the method and feature of Cart. Including 
+ * add, and replace Items. Clear cart. 
+ * 
+ * @author Tony Le
+ * @version Winter 2021
+ * 
+ */
+public class CartTest {
+    
+    /** Items are used to add to Cart. */
+    private Item myItem1;
+    private Item myItem2;
+    private Item myItem3;
+    
+    /** ItemOrder for Item and Item quantity. */
+    private ItemOrder myItemOrder1;
+    private ItemOrder myItemOrder2;
+    private ItemOrder myItemOrder3;
+    
+    /** initialize Cart object.*/
+    private Cart myCart;
+    
+    /** Tolerance is needed since prices are converted to double for comparison. */
+    private static final double TOLERANCE = .00000001;
+    
+    /**
+     * Method to run before each test. This method is used to populate Items and ItemOrder 
+     * objects, which will be added to Cart.
+     */
+    
+    @Before
+    public void setUp() {
+        
+        myItem1 = new Item("simple test", new BigDecimal("1.99"));
+        myItem2 = new Item("test", new BigDecimal("2.99") , 5, new BigDecimal("9.99"));
+        myItem3 = new Item("test item", new BigDecimal("6.99") , 10, new BigDecimal("19.99"));
+        
+        myItemOrder1 = new ItemOrder(myItem1, 5);
+        myItemOrder2 = new ItemOrder(myItem2, 10);
+        myItemOrder3 = new ItemOrder(myItem3, 7);
+        
+        myCart = new Cart();
+        
+        myCart.add(myItemOrder1);
+        myCart.add(myItemOrder2);
+        myCart.add(myItemOrder3);
+        
+        
+//      test add and replace feature of method Add(), if Add() can't replace item3 
+//      quantity from 7 to 8, calculate total will return false. The calculation uses
+//      quantity as 8 instead of 7
+        
+        myItemOrder3 = new ItemOrder(myItem3, 8);
+        myCart.add(myItemOrder3);
+    }
+    
+    /**
+     * Test for clear() and getCartSize() at the same time.
+     */
+    @Test
+    public void testClear() {
+        
+        final int tempCartSize = myCart.getCartSize();
+        
+        myCart.clear();
+        
+        assertTrue(tempCartSize > myCart.getCartSize());
+    }
+    
+    /**
+     * Test both setMembership() and calculateTotal() methods. calculate the Cart() without
+     * membership first, then calculate the Cart() with membership.
+     */
+    
+    @Test
+    public void testMemebership() {
+        
+        assertEquals(5 * 1.99 + 10 * 2.99 + 8 * 6.99, 
+            myCart.calculateTotal().doubleValue(), TOLERANCE);
+        
+        myCart.setMembership(true);
+        
+        //if either setMembership() or calculateTotal() malfunction, this one will return false
+        assertEquals(5 * 1.99 + 2 * 9.99 + 8 * 6.99, 
+            myCart.calculateTotal().doubleValue(), TOLERANCE);
+    }
+    
+    /**
+     * Test for toString() method. Since the order of items in the Cart is unknown,
+     * it is better to test individual item, checking whether the item exists in the cart.
+     */
+    
+    @Test
+    public void testToString() {
+        final String testString1 = "8 test item, $6.99 (10 for $19.99)";
+        final String testString2 = "5 simple test, $1.99";
+        final String testString3 = "10 test, $2.99 (5 for $9.99)";
+            
+        assertAll(
+            () -> assertTrue(myCart.toString().contains(testString1)),
+            
+            () -> assertTrue(myCart.toString().contains(testString2)),
+            
+            () -> assertTrue(myCart.toString().contains(testString3)));
+    }
+}
+
+
+
+
+

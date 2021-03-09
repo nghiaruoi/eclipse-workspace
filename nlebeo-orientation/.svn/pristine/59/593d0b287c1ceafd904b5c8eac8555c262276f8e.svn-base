@@ -1,0 +1,50 @@
+import java.util.Arrays;
+/** 
+ * Complex java program to print out HelloWorld.
+ * 
+ * @author Tony Le
+ * @version Winter 2021
+ *
+ */
+
+public final class Hello {
+    
+    /**
+     *  Private constructor to avoid instantiation.
+     */
+    private Hello() {
+        
+    }
+    
+    /**
+     *  This is the entry point.
+     *  
+     * @param theArgs the command line arguments
+     */
+
+    public static void main(final String[] theArgs) {
+        // TODO Auto-generated method stub
+        
+        System.out.println(averageLength("abc", "a", "abcdefg", "length", "1234567890"));
+        System.out.println(averageLength("abc"));
+        System.out.println(averageLength());
+        final String[] words = {"Charles", "Bryan", "UWT", "School of Engineering and Technology"};
+        System.out.println(averageLength(words));
+        
+        World.sayGoodbye();
+        final World hello = new World("Tony");
+        hello.sayHello();
+    }
+
+    /** 
+     * One long long line of code to get extra credit.
+     * 
+     * @param theList take in unknown amount of Strings
+     * @return the average number of characters of theList
+     * 
+     */
+
+    public static double averageLength(final String ...theList) {
+        return theList.length >= 1 ? (double) (Arrays.toString(theList).length() - theList.length * 2) / (double) (theList.length) : (double) (theList.length);  
+    }
+}

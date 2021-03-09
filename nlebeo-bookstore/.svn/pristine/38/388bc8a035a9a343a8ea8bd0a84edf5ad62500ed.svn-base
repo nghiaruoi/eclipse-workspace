@@ -1,0 +1,87 @@
+package tests;
+
+import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertAll;
+
+import java.math.BigDecimal;
+import model.*;
+import org.junit.Before;
+import org.junit.Test;
+
+public class CartTest {
+    
+    Item item1, item2, item3;
+    ItemOrder itemOrder1, itemOrder2, itemOrder3;
+    Cart myCart;
+    private static final double TOLERANCE = .00000001;
+    
+    @Before
+    public void setUp() {
+        item1 = new Item("simple test", new BigDecimal("1.99"));
+        item2 = new Item("test", new BigDecimal("2.99") , 5, new BigDecimal("9.99"));
+        item3 = new Item("test item", new BigDecimal("6.99") , 10, new BigDecimal("19.99"));
+        
+        itemOrder1 = new ItemOrder(item1, 5);
+        itemOrder2 = new ItemOrder(item2, 10);
+        itemOrder3 = new ItemOrder(item3, 7);
+        
+        myCart = new Cart();
+        
+        myCart.add(itemOrder1);
+        myCart.add(itemOrder2);
+        myCart.add(itemOrder3);
+        
+        
+//      test add and replace feature of method Add(), if Add() can't replace item3 
+//      quantity from 7 to 8, calculate total will return false.
+        
+        itemOrder3 = new ItemOrder(item3, 8);
+        myCart.add(itemOrder3);
+    }
+    
+    /**
+     * Test for clear() and getCartSize() at the same time.
+     */
+    @Test
+    public void testClear() {
+        
+        final int tempCartSize = myCart.getCartSize();
+        
+        myCart.clear();
+        
+        assertTrue(tempCartSize > myCart.getCartSize());
+    }
+    
+    /**
+     * test both setMembership() and calculateTotal() methods. calculate the Cart() without
+     * membership first, then calculate the Cart() with membership.
+     */
+    
+    @Test
+    public void testMemebership() {
+        
+        assertEquals(5 * 1.99 + 10 * 2.99 + 8 * 6.99, 
+            myCart.calculateTotal().doubleValue(), TOLERANCE);
+        
+        myCart.setMembership(true);
+        
+        //if either setMembership() or calculateTotal() malfunction, this one will return false
+        assertEquals(5 * 1.99 + 2 * 9.99 + 8 * 6.99, 
+            myCart.calculateTotal().doubleValue(), TOLERANCE);
+    }
+    
+    @Test
+    public void testToString() {
+        final String testString = 
+               "8 test item, $6.99 (10 for $19.99)" + System.lineSeparator()
+            +   "5 simple test, $1.99" + System.lineSeparator()
+            +   "10 test, $2.99 (5 for $9.99)" + System.lineSeparator();
+            
+        assertEquals(myCart.toString(), testString);
+    }
+}
+
+
+
+
+

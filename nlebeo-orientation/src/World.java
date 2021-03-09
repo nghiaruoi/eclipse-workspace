@@ -1,0 +1,38 @@
+
+/**
+ * Objects from this class can say hello.
+ * 
+ * @author Nghia (Tony) Le
+ * @version Winter 2021
+ *
+ */
+
+public class World {
+    
+    /** Holds the name of the user. */
+    private final String myName;
+    
+    /**
+     * Constructs a World object.
+     * 
+     * @param theName the name of the World user
+     */
+    public World(final String theName) {
+        myName = theName;
+    }
+
+    /**
+     * Say hello to the user.
+     */
+    public final void sayHello() {
+        System.out.println("Hello, " + myName);
+    }
+    
+    /**
+     * Say adios to the user.
+     */
+    public static void sayGoodbye() {
+        System.out.println("bye");
+        
+    }
+}

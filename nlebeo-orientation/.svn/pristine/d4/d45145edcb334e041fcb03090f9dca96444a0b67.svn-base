@@ -1,0 +1,41 @@
+
+/**
+ * 
+ * 
+ * 
+ * 
+ */
+
+import java.util.Arrays;
+
+public final class Hello {
+    
+    /**
+     *  Private constructor to avoid instantiation.
+     */
+    private Hello() {
+        
+    }
+    
+    /**
+     *  This is the entry point.
+     *  
+     * @param theArgs
+     */
+
+    public static void main(String[] theArgs) {
+        // TODO Auto-generated method stub
+        System.out.println("Hello World");
+        System.out.println(averageLength("abc", "a", "abcdefg", "length", "1234567890"));
+        System.out.println(averageLength("abc"));
+        System.out.println(averageLength());
+        String[] words = { "Charles", "Bryan", "UWT", "School of Engineering and Technology"};
+        System.out.println(averageLength(words));
+    }
+
+
+
+    public static double averageLength(String ...list ) {
+        return list.length >= 1 ? (double) (Arrays.toString(list).length() - list.length * 2) / (double) (list.length) : (double) (list.length);  
+    }
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.1" sequence="1" timestamp="1614592941445" analysisTimestamp="1614592936652" release="">
+  <Project projectName="Swing GUI Examples (Layouts)">
+    <Jar>C:\Users\nle01\eclipse-workspace\Swing GUI Examples (Layouts)\bin</Jar>
+    <AuxClasspathEntry>C:\Users\nle01\eclipse-workspace\Swing GUI Examples (Layouts)\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\nle01\eclipse-workspace\Swing GUI Examples (Layouts)\src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 1 Mar 2021 02:02:16 -0800" total_classes="12" referenced_classes="345" total_bugs="0" total_size="212" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="46.12" clock_seconds="4.79" peak_mbytes="1087.43" alloc_mbytes="2048.00" gc_seconds="0.34">
+    <PackageStats package="layouts" total_bugs="0" total_types="12" total_size="212">
+      <ClassStats class="layouts.BorderLayoutDemo" sourceFile="BorderLayoutDemo.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="layouts.BorderLayoutDemo$1" sourceFile="BorderLayoutDemo.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="layouts.CompositeLayout" sourceFile="CompositeLayout.java" interface="false" size="24" bugs="0"/>
+      <ClassStats class="layouts.CompositeLayout$1" sourceFile="CompositeLayout.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="layouts.FlowLayoutDemoAsFrame" sourceFile="FlowLayoutDemoAsFrame.java" interface="false" size="21" bugs="0"/>
+      <ClassStats class="layouts.FlowLayoutDemoAsFrame$1" sourceFile="FlowLayoutDemoAsFrame.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="layouts.FlowLayoutDemoAsPanel" sourceFile="FlowLayoutDemoAsPanel.java" interface="false" size="28" bugs="0"/>
+      <ClassStats class="layouts.FlowLayoutDemoAsPanel$1" sourceFile="FlowLayoutDemoAsPanel.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="layouts.GridLayoutDemo" sourceFile="GridLayoutDemo.java" interface="false" size="26" bugs="0"/>
+      <ClassStats class="layouts.GridLayoutDemo$1" sourceFile="GridLayoutDemo.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="layouts.TabbedPaneLayout" sourceFile="TabbedPaneLayout.java" interface="false" size="24" bugs="0"/>
+      <ClassStats class="layouts.TabbedPaneLayout$1" sourceFile="TabbedPaneLayout.java" interface="false" size="12" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="1596" invocations="2" avgMicrosecondsPerInvocation="798092" maxMicrosecondsPerInvocation="1233638" standardDeviationMicrosecondsPerInvocation="435546"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="737" invocations="1673" avgMicrosecondsPerInvocation="440" maxMicrosecondsPerInvocation="25887" standardDeviationMicrosecondsPerInvocation="1370"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="363" invocations="345" avgMicrosecondsPerInvocation="1052" maxMicrosecondsPerInvocation="61200" standardDeviationMicrosecondsPerInvocation="3674"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="329" invocations="1677" avgMicrosecondsPerInvocation="196" maxMicrosecondsPerInvocation="31644" standardDeviationMicrosecondsPerInvocation="889"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="326" invocations="345" avgMicrosecondsPerInvocation="946" maxMicrosecondsPerInvocation="12564" standardDeviationMicrosecondsPerInvocation="1807"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="265" invocations="791" avgMicrosecondsPerInvocation="335" maxMicrosecondsPerInvocation="30867" standardDeviationMicrosecondsPerInvocation="1305"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1614592941445" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

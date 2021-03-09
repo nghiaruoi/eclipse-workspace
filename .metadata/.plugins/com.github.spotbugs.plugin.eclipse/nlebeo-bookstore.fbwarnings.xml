@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.1" sequence="1" timestamp="1614592943370" analysisTimestamp="1614592939695" release="">
+  <Project projectName="nlebeo-bookstore">
+    <Jar>C:\Users\nle01\eclipse-workspace\nlebeo-bookstore\bin</Jar>
+    <AuxClasspathEntry>C:\Users\nle01\eclipse-workspace\nlebeo-bookstore\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.junit.jupiter.api_5.7.0.v20201026-1537.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.junit.jupiter.engine_5.7.0.v20201026-1537.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.junit.jupiter.migrationsupport_5.7.0.v20201026-1537.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.junit.jupiter.params_5.7.0.v20201026-1537.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.junit.platform.commons_1.7.0.v20201026-1537.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.junit.platform.engine_1.7.0.v20201026-1537.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.junit.platform.launcher_1.7.0.v20201026-1537.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.junit.platform.runner_1.7.0.v20201026-1537.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.junit.platform.suite.api_1.7.0.v20201026-1537.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.junit.vintage.engine_5.7.0.v20201026-1537.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.opentest4j_1.2.0.v20190826-0900.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.apiguardian_1.1.0.v20190826-0900.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\nle01\eclipse-workspace\nlebeo-bookstore\src</SrcDir>
+  </Project>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="io.CredentialingLoader">
+      <SourceLine classname="io.CredentialingLoader" sourcefile="CredentialingLoader.java" sourcepath="io/CredentialingLoader.java"/>
+    </Class>
+    <Method classname="io.CredentialingLoader" name="register" signature="(Ljava/lang/String;[CLjava/lang/String;)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="io.CredentialingLoader" start="95" end="128" startBytecode="0" endBytecode="703" sourcefile="CredentialingLoader.java" sourcepath="io/CredentialingLoader.java"/>
+    </Method>
+    <Method classname="java.io.FileWriter" name="&lt;init&gt;" signature="(Ljava/io/File;Z)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileWriter" start="113" end="114" startBytecode="0" endBytecode="79" sourcefile="FileWriter.java" sourcepath="java/io/FileWriter.java"/>
+    </Method>
+    <SourceLine classname="io.CredentialingLoader" start="106" end="106" startBytecode="78" endBytecode="78" sourcefile="CredentialingLoader.java" sourcepath="io/CredentialingLoader.java"/>
+    <SourceLine classname="io.CredentialingLoader" start="106" end="106" startBytecode="78" endBytecode="78" sourcefile="CredentialingLoader.java" sourcepath="io/CredentialingLoader.java"/>
+  </BugInstance>
+  <BugInstance type="DM_BOXED_PRIMITIVE_FOR_PARSING" priority="1" rank="16" abbrev="Bx" category="PERFORMANCE" first="1">
+    <Class classname="io.InventoryLoader">
+      <SourceLine classname="io.InventoryLoader" sourcefile="InventoryLoader.java" sourcepath="io/InventoryLoader.java"/>
+    </Class>
+    <Method classname="io.InventoryLoader" name="readItemsFromFile" signature="(Ljava/lang/String;)Ljava/util/List;" isStatic="true">
+      <SourceLine classname="io.InventoryLoader" start="42" end="62" startBytecode="0" endBytecode="527" sourcefile="InventoryLoader.java" sourcepath="io/InventoryLoader.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="intValue" signature="()I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Integer" start="1138" end="1138" startBytecode="0" endBytecode="46" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="parseInt" signature="(Ljava/lang/String;)I" isStatic="true" role="SHOULD_CALL"/>
+    <SourceLine classname="io.InventoryLoader" start="51" end="51" startBytecode="92" endBytecode="92" sourcefile="InventoryLoader.java" sourcepath="io/InventoryLoader.java"/>
+    <SourceLine classname="io.InventoryLoader" start="51" end="51" startBytecode="92" endBytecode="92" sourcefile="InventoryLoader.java" sourcepath="io/InventoryLoader.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 1 Mar 2021 02:02:17 -0800" total_classes="23" referenced_classes="383" total_bugs="2" total_size="959" num_packages="6" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="34.67" clock_seconds="3.68" peak_mbytes="1167.17" alloc_mbytes="2048.00" gc_seconds="0.30" priority_1="2">
+    <PackageStats package="appliation" total_bugs="0" total_types="2" total_size="16">
+      <ClassStats class="appliation.BookstoreMain" sourceFile="BookstoreMain.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="appliation.BookstoreMain$1" sourceFile="BookstoreMain.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="io" total_bugs="2" total_types="2" total_size="120" priority_1="2">
+      <ClassStats class="io.CredentialingLoader" sourceFile="CredentialingLoader.java" interface="false" size="88" bugs="1" priority_1="1"/>
+      <ClassStats class="io.InventoryLoader" sourceFile="InventoryLoader.java" interface="false" size="32" bugs="1" priority_1="1"/>
+    </PackageStats>
+    <PackageStats package="model" total_bugs="0" total_types="3" total_size="136">
+      <ClassStats class="model.Cart" sourceFile="Cart.java" interface="false" size="49" bugs="0"/>
+      <ClassStats class="model.Item" sourceFile="Item.java" interface="false" size="67" bugs="0"/>
+      <ClassStats class="model.ItemOrder" sourceFile="ItemOrder.java" interface="false" size="20" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="res" total_bugs="0" total_types="6" total_size="108">
+      <ClassStats class="res.R" sourceFile="R.java" interface="false" size="3" bugs="0"/>
+      <ClassStats class="res.R$Colors" sourceFile="R.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="res.R$Dimensions" sourceFile="R.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="res.R$ItemsFile" sourceFile="R.java" interface="false" size="22" bugs="0"/>
+      <ClassStats class="res.R$Strings" sourceFile="R.java" interface="false" size="32" bugs="0"/>
+      <ClassStats class="res.R$UsersFile" sourceFile="R.java" interface="false" size="22" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="tests" total_bugs="0" total_types="3" total_size="196">
+      <ClassStats class="tests.CartTest" sourceFile="CartTest.java" interface="false" size="50" bugs="0"/>
+      <ClassStats class="tests.ItemOrderTest" sourceFile="ItemOrderTest.java" interface="false" size="43" bugs="0"/>
+      <ClassStats class="tests.ItemTest" sourceFile="ItemTest.java" interface="false" size="103" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="view" total_bugs="0" total_types="7" total_size="383">
+      <ClassStats class="view.BookstoreFrame" sourceFile="BookstoreFrame.java" interface="false" size="138" bugs="0"/>
+      <ClassStats class="view.BookstoreFrame$1" sourceFile="BookstoreFrame.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="view.LoginFrame" sourceFile="LoginFrame.java" interface="false" size="141" bugs="0"/>
+      <ClassStats class="view.LoginFrame$AttemptLoginWorker" sourceFile="LoginFrame.java" interface="false" size="26" bugs="0"/>
+      <ClassStats class="view.LoginFrame$AttemptRegistrationWorker" sourceFile="LoginFrame.java" interface="false" size="29" bugs="0"/>
+      <ClassStats class="view.LoginFrame$LoadInventoryWorker" sourceFile="LoginFrame.java" interface="false" size="28" bugs="0"/>
+      <ClassStats class="view.LoginFrame$LoadInventoryWorker$1" sourceFile="LoginFrame.java" interface="false" size="12" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="700" invocations="1821" avgMicrosecondsPerInvocation="384" maxMicrosecondsPerInvocation="62118" standardDeviationMicrosecondsPerInvocation="2315"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="554" invocations="1828" avgMicrosecondsPerInvocation="303" maxMicrosecondsPerInvocation="83153" standardDeviationMicrosecondsPerInvocation="2687"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="291" invocations="383" avgMicrosecondsPerInvocation="760" maxMicrosecondsPerInvocation="30216" standardDeviationMicrosecondsPerInvocation="2334"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="270" invocations="383" avgMicrosecondsPerInvocation="706" maxMicrosecondsPerInvocation="40613" standardDeviationMicrosecondsPerInvocation="2406"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="270" invocations="2" avgMicrosecondsPerInvocation="135189" maxMicrosecondsPerInvocation="204672" standardDeviationMicrosecondsPerInvocation="69483"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="180" invocations="920" avgMicrosecondsPerInvocation="196" maxMicrosecondsPerInvocation="42251" standardDeviationMicrosecondsPerInvocation="1406"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="123" invocations="383" avgMicrosecondsPerInvocation="321" maxMicrosecondsPerInvocation="48016" standardDeviationMicrosecondsPerInvocation="2472"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="109" invocations="148" avgMicrosecondsPerInvocation="740" maxMicrosecondsPerInvocation="23982" standardDeviationMicrosecondsPerInvocation="3040"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="63" invocations="1764" avgMicrosecondsPerInvocation="36" maxMicrosecondsPerInvocation="13343" standardDeviationMicrosecondsPerInvocation="334"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="58" invocations="383" avgMicrosecondsPerInvocation="151" maxMicrosecondsPerInvocation="4112" standardDeviationMicrosecondsPerInvocation="378"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="52" invocations="383" avgMicrosecondsPerInvocation="135" maxMicrosecondsPerInvocation="8996" standardDeviationMicrosecondsPerInvocation="788"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="49" invocations="383" avgMicrosecondsPerInvocation="128" maxMicrosecondsPerInvocation="7843" standardDeviationMicrosecondsPerInvocation="466"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="46" invocations="145" avgMicrosecondsPerInvocation="320" maxMicrosecondsPerInvocation="12149" standardDeviationMicrosecondsPerInvocation="1047"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1614592943370" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>
