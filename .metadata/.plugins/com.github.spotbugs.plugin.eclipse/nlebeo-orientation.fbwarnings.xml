@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<BugCollection version="4.2.1" sequence="1" timestamp="1614592941289" analysisTimestamp="1614592940560" release="">
+<BugCollection version="4.2.1" sequence="1" timestamp="1617747432091" analysisTimestamp="1617747431725" release="">
   <Project projectName="nlebeo-orientation">
     <Jar>C:\Users\nle01\eclipse-workspace\nlebeo-orientation\bin</Jar>
     <AuxClasspathEntry>C:\Users\nle01\eclipse-workspace\nlebeo-orientation\bin</AuxClasspathEntry>
@@ -10,22 +10,21 @@
     <SrcDir>C:\Users\nle01\eclipse-workspace\nlebeo-orientation\src</SrcDir>
   </Project>
   <Errors errors="0" missingClasses="0"></Errors>
-  <FindBugsSummary timestamp="Mon, 1 Mar 2021 02:02:20 -0800" total_classes="2" referenced_classes="17" total_bugs="0" total_size="28" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="7.95" clock_seconds="0.76" peak_mbytes="1086.35" alloc_mbytes="2048.00" gc_seconds="0.08">
+  <FindBugsSummary timestamp="Tue, 6 Apr 2021 15:17:11 -0700" total_classes="2" referenced_classes="17" total_bugs="0" total_size="28" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="3.19" clock_seconds="0.37" peak_mbytes="1347.09" alloc_mbytes="2048.00" gc_seconds="0.02">
     <PackageStats package="" total_bugs="0" total_types="2" total_size="28">
       <ClassStats class="Hello" sourceFile="Hello.java" interface="false" size="16" bugs="0"/>
       <ClassStats class="World" sourceFile="World.java" interface="false" size="12" bugs="0"/>
     </PackageStats>
     <FindBugsProfile>
-      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="290" invocations="2" avgMicrosecondsPerInvocation="145311" maxMicrosecondsPerInvocation="280230" standardDeviationMicrosecondsPerInvocation="134919"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="97" invocations="416" avgMicrosecondsPerInvocation="235" maxMicrosecondsPerInvocation="4845" standardDeviationMicrosecondsPerInvocation="483"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="70" invocations="417" avgMicrosecondsPerInvocation="168" maxMicrosecondsPerInvocation="10367" standardDeviationMicrosecondsPerInvocation="518"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="36" invocations="17" avgMicrosecondsPerInvocation="2139" maxMicrosecondsPerInvocation="31465" standardDeviationMicrosecondsPerInvocation="7342"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="26" invocations="17" avgMicrosecondsPerInvocation="1583" maxMicrosecondsPerInvocation="13042" standardDeviationMicrosecondsPerInvocation="3134"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="22" invocations="17" avgMicrosecondsPerInvocation="1336" maxMicrosecondsPerInvocation="7010" standardDeviationMicrosecondsPerInvocation="1915"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="107" invocations="416" avgMicrosecondsPerInvocation="257" maxMicrosecondsPerInvocation="4781" standardDeviationMicrosecondsPerInvocation="555"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="76" invocations="2" avgMicrosecondsPerInvocation="38230" maxMicrosecondsPerInvocation="69304" standardDeviationMicrosecondsPerInvocation="31074"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="54" invocations="417" avgMicrosecondsPerInvocation="130" maxMicrosecondsPerInvocation="674" standardDeviationMicrosecondsPerInvocation="92"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="23" invocations="6" avgMicrosecondsPerInvocation="3854" maxMicrosecondsPerInvocation="22615" standardDeviationMicrosecondsPerInvocation="8390"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="15" invocations="381" avgMicrosecondsPerInvocation="41" maxMicrosecondsPerInvocation="798" standardDeviationMicrosecondsPerInvocation="87"/>
     </FindBugsProfile>
   </FindBugsSummary>
   <ClassFeatures></ClassFeatures>
   <History>
-    <AppVersion sequence="0" timestamp="1614592941287" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="0" timestamp="1617747432091" release="" codeSize="0" numClasses="0"/>
   </History>
 </BugCollection>

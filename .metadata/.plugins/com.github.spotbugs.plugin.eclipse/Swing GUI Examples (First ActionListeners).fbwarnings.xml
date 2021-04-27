@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<BugCollection version="4.2.1" sequence="1" timestamp="1614592941428" analysisTimestamp="1614592936523" release="">
+<BugCollection version="4.2.1" sequence="1" timestamp="1617747431692" analysisTimestamp="1617747426799" release="">
   <Project projectName="Swing GUI Examples (First ActionListeners)">
     <Jar>C:\Users\nle01\eclipse-workspace\Swing GUI Examples (First ActionListeners)\bin</Jar>
     <AuxClasspathEntry>C:\Users\nle01\eclipse-workspace\Swing GUI Examples (First ActionListeners)\bin</AuxClasspathEntry>
@@ -10,7 +10,7 @@
     <SrcDir>C:\Users\nle01\eclipse-workspace\Swing GUI Examples (First ActionListeners)\src</SrcDir>
   </Project>
   <Errors errors="0" missingClasses="0"></Errors>
-  <FindBugsSummary timestamp="Mon, 1 Mar 2021 02:02:16 -0800" total_classes="5" referenced_classes="294" total_bugs="0" total_size="136" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="46.84" clock_seconds="4.91" peak_mbytes="1087.29" alloc_mbytes="2048.00" gc_seconds="0.34">
+  <FindBugsSummary timestamp="Tue, 6 Apr 2021 15:17:06 -0700" total_classes="5" referenced_classes="294" total_bugs="0" total_size="136" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="50.31" clock_seconds="4.89" peak_mbytes="1269.01" alloc_mbytes="2048.00" gc_seconds="0.44">
     <PackageStats package="view" total_bugs="0" total_types="5" total_size="136">
       <ClassStats class="view.HelloGoodBye" sourceFile="HelloGoodBye.java" interface="false" size="64" bugs="0"/>
       <ClassStats class="view.HelloGoodBye$1" sourceFile="HelloGoodBye.java" interface="false" size="7" bugs="0"/>
@@ -19,16 +19,18 @@
       <ClassStats class="view.HelloGoodByeEmpty" sourceFile="HelloGoodByeEmpty.java" interface="false" size="51" bugs="0"/>
     </PackageStats>
     <FindBugsProfile>
-      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="1327" invocations="2" avgMicrosecondsPerInvocation="663583" maxMicrosecondsPerInvocation="1167343" standardDeviationMicrosecondsPerInvocation="503760"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="936" invocations="1558" avgMicrosecondsPerInvocation="601" maxMicrosecondsPerInvocation="64571" standardDeviationMicrosecondsPerInvocation="2994"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="513" invocations="1562" avgMicrosecondsPerInvocation="328" maxMicrosecondsPerInvocation="48411" standardDeviationMicrosecondsPerInvocation="2118"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="378" invocations="294" avgMicrosecondsPerInvocation="1288" maxMicrosecondsPerInvocation="65169" standardDeviationMicrosecondsPerInvocation="4558"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="341" invocations="294" avgMicrosecondsPerInvocation="1160" maxMicrosecondsPerInvocation="23458" standardDeviationMicrosecondsPerInvocation="2592"/>
-      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="199" invocations="632" avgMicrosecondsPerInvocation="316" maxMicrosecondsPerInvocation="13626" standardDeviationMicrosecondsPerInvocation="668"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="1086" invocations="1558" avgMicrosecondsPerInvocation="697" maxMicrosecondsPerInvocation="49762" standardDeviationMicrosecondsPerInvocation="2683"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="618" invocations="1562" avgMicrosecondsPerInvocation="396" maxMicrosecondsPerInvocation="64927" standardDeviationMicrosecondsPerInvocation="2769"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="456" invocations="294" avgMicrosecondsPerInvocation="1553" maxMicrosecondsPerInvocation="66872" standardDeviationMicrosecondsPerInvocation="6020"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="393" invocations="294" avgMicrosecondsPerInvocation="1340" maxMicrosecondsPerInvocation="40958" standardDeviationMicrosecondsPerInvocation="3555"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="370" invocations="2" avgMicrosecondsPerInvocation="185282" maxMicrosecondsPerInvocation="240818" standardDeviationMicrosecondsPerInvocation="55537"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="318" invocations="294" avgMicrosecondsPerInvocation="1084" maxMicrosecondsPerInvocation="212274" standardDeviationMicrosecondsPerInvocation="12359"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="296" invocations="632" avgMicrosecondsPerInvocation="468" maxMicrosecondsPerInvocation="27912" standardDeviationMicrosecondsPerInvocation="1949"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="279" invocations="294" avgMicrosecondsPerInvocation="951" maxMicrosecondsPerInvocation="185885" standardDeviationMicrosecondsPerInvocation="10918"/>
     </FindBugsProfile>
   </FindBugsSummary>
   <ClassFeatures></ClassFeatures>
   <History>
-    <AppVersion sequence="0" timestamp="1614592941428" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="0" timestamp="1617747431692" release="" codeSize="0" numClasses="0"/>
   </History>
 </BugCollection>

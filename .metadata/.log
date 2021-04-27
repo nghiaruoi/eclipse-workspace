@@ -1365,3 +1365,2554 @@ java.lang.NullPointerException: Cannot invoke "net.sf.eclipsecs.core.config.meta
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+!SESSION 2021-03-10 15:21:21.552 -----------------------------------------------
+eclipse.buildId=4.18.0.I20201202-1800
+java.version=15.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2021-03-10 15:21:24.441
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-10 15:21:24.441
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@52d59507,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4d75c604,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-10 15:21:24.441
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3265995e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@33f2eb04,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-03-10 15:21:30.345
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\nle01'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-10 17:08:29.116
+!MESSAGE The rule UnusedModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-10 17:08:29.117
+!MESSAGE The rule BooleanInversion could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-10 17:08:29.120
+!MESSAGE The rule UncommentedEmptyMethod could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-10 17:08:29.121
+!MESSAGE The rule EmptyStaticInitializer could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-10 17:08:29.122
+!MESSAGE The rule MisleadingVariableName could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-10 17:08:29.122
+!MESSAGE The rule UnnecessaryFinalModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-10 17:08:29.123
+!MESSAGE The rule AvoidConstantsInterface could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-10 17:08:29.151
+!MESSAGE Creating new auxclasspath class loader for project Functional Programming Examples (Starting)
+!SESSION 2021-03-11 13:11:12.876 -----------------------------------------------
+eclipse.buildId=4.18.0.I20201202-1800
+java.version=15.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-03-11 13:11:13.939
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2021-03-11 13:11:15.261
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-11 13:11:15.261
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7846913f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@48da64f2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-11 13:11:15.261
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@60b553f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2aa811f9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-03-11 13:11:20.666
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\nle01'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-11 13:11:21.027
+!MESSAGE The rule UnusedModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-11 13:11:21.028
+!MESSAGE The rule BooleanInversion could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-11 13:11:21.031
+!MESSAGE The rule UncommentedEmptyMethod could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-11 13:11:21.032
+!MESSAGE The rule EmptyStaticInitializer could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-11 13:11:21.032
+!MESSAGE The rule MisleadingVariableName could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-11 13:11:21.033
+!MESSAGE The rule UnnecessaryFinalModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-11 13:11:21.033
+!MESSAGE The rule AvoidConstantsInterface could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-11 13:11:21.059
+!MESSAGE Creating new auxclasspath class loader for project Functional Programming Examples (Starting)
+
+!ENTRY org.eclipse.jdt.core 4 4 2021-03-11 13:39:32.181
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package code;
+
+
+
+/**
+ * Homework 3 <br>
+ * Simulating a purchase in Canada paid in US dollars
+ * 
+ * @author <your name here>
+ */
+
+public class CanadianGiftShop {
+
+	public static void mystery(int[] a) {
+		
+		for (int i = 0; i < a.length/2; i++) {
+			int temp;
+			temp = a[i];
+			a[a.length - i] = a[i];
+			a[a.length - i] = temp;
+			}
+		System.out.print(a);
+		}
+	
+	public int check()
+	
+
+	public static void main(String[] args) {
+		int[] array = {1,2,3,4};
+		mystery(array);
+	}
+
+}
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3146)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:738)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3316)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1513)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:474)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1141)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1318)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2021-03-11 13:39:32.182
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3146)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:738)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3316)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1513)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:474)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1141)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1318)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2021-03-11 13:39:32.182
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3146)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:738)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3316)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1513)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:474)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1141)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1318)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.core 4 4 2021-03-11 13:39:37.186
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package code;
+
+
+
+/**
+ * Homework 3 <br>
+ * Simulating a purchase in Canada paid in US dollars
+ * 
+ * @author <your name here>
+ */
+
+public class CanadianGiftShop {
+
+	public static void mystery(int[] a) {
+		
+		for (int i = 0; i < a.length/2; i++) {
+			int temp;
+			temp = a[i];
+			a[a.length - i] = a[i];
+			a[a.length - i] = temp;
+			}
+		System.out.print(a);
+		}
+	
+	public int check(String)
+	
+
+	public static void main(String[] args) {
+		int[] array = {1,2,3,4};
+		mystery(array);
+	}
+
+}
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3146)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:738)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3316)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1513)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:474)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1141)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1318)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2021-03-11 13:39:37.187
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3146)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:738)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3316)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1513)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:474)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1141)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1318)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2021-03-11 13:39:37.187
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3146)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:738)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3316)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1513)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:474)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1141)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1318)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.core 4 4 2021-03-11 13:39:38.692
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package code;
+
+
+
+/**
+ * Homework 3 <br>
+ * Simulating a purchase in Canada paid in US dollars
+ * 
+ * @author <your name here>
+ */
+
+public class CanadianGiftShop {
+
+	public static void mystery(int[] a) {
+		
+		for (int i = 0; i < a.length/2; i++) {
+			int temp;
+			temp = a[i];
+			a[a.length - i] = a[i];
+			a[a.length - i] = temp;
+			}
+		System.out.print(a);
+		}
+	
+	public int check(String[] a)
+	
+
+	public static void main(String[] args) {
+		int[] array = {1,2,3,4};
+		mystery(array);
+	}
+
+}
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3146)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:738)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3316)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1513)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:474)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1141)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1318)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2021-03-11 13:39:38.692
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3146)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:738)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3316)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1513)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:474)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1141)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1318)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2021-03-11 13:39:38.692
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3146)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:738)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3316)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1513)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:474)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1141)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1318)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.core 4 4 2021-03-11 13:51:56.291
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package code;
+
+import java.util.*;
+
+
+
+/**
+ * Homework 3 <br>
+ * Simulating a purchase in Canada paid in US dollars
+ * 
+ * @author <your name here>
+ */
+
+public class CanadianGiftShop {
+
+	public static void mystery(int[] a) {
+		
+		for (int i = 0; i < a.length/2; i++) {
+			int temp;
+			temp = a[i];
+			a[i] = a[a.length - i - 1];
+			a[a.length - i - 1] = temp;
+			}
+		for (int i = 0; i < a.length; i++) {
+			System.out.print(a[i]);
+		}
+		}
+	
+	public int check(ArrayList<String> list, char ch) {
+		int res = 0;
+		list.forEach(n) -> {
+			if (n.charAt(0) = ch) {
+				res +1
+			}
+		};
+		return res;
+	}
+	
+
+	public static void main(String[] args) {
+		int[] array = {1,2,3,4};
+		mystery(array);
+	}
+
+}
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1276)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2020)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3764)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1932)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1963)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3023)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3316)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1513)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:474)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1141)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1318)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2021-03-11 13:51:56.291
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1276)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2020)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3764)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1932)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1963)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3023)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3316)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1513)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:474)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1141)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1318)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2021-03-11 13:51:56.291
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1276)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2020)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3764)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1932)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1963)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3023)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3316)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1513)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:474)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1141)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1318)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.core 4 4 2021-03-11 13:51:56.295
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package code;
+
+import java.util.*;
+
+
+
+/**
+ * Homework 3 <br>
+ * Simulating a purchase in Canada paid in US dollars
+ * 
+ * @author <your name here>
+ */
+
+public class CanadianGiftShop {
+
+	public static void mystery(int[] a) {
+		
+		for (int i = 0; i < a.length/2; i++) {
+			int temp;
+			temp = a[i];
+			a[i] = a[a.length - i - 1];
+			a[a.length - i - 1] = temp;
+			}
+		for (int i = 0; i < a.length; i++) {
+			System.out.print(a[i]);
+		}
+		}
+	
+	public int check(ArrayList<String> list, char ch) {
+		int res = 0;
+		list.forEach(n) -> {
+			if (n.charAt(0) = ch) {
+				res +1
+			}
+		};
+		return res;
+	}
+	
+
+	public static void main(String[] args) {
+		int[] array = {1,2,3,4};
+		mystery(array);
+	}
+
+}
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1276)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2020)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3764)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1932)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1963)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3023)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3316)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1513)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1231)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:820)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2021-03-11 13:51:56.296
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1276)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2020)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3764)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1932)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1963)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3023)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3316)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1513)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1231)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:820)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2021-03-11 13:51:56.296
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1276)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2020)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3764)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1932)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1963)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3023)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3316)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1513)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1231)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:820)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2021-03-12 11:12:45.137 -----------------------------------------------
+eclipse.buildId=4.18.0.I20201202-1800
+java.version=15.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2021-03-12 11:12:47.495
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-12 11:12:47.495
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@33f2eb04,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4df13dd0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-12 11:12:47.495
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2ed7978c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@30665461,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-03-12 11:12:52.772
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\nle01'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY net.sf.eclipsecs.core 4 0 2021-03-12 13:17:15.820
+!MESSAGE Checkstyle-Plugin: Exception was thrown while processing C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java
+!STACK 0
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: Exception was thrown while processing C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:311)
+	at com.puppycrawl.tools.checkstyle.Checker.process(Checker.java:221)
+	at net.sf.eclipsecs.core.builder.Auditor.runAudit(Auditor.java:146)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:307)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.build(CheckstyleBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:845)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:228)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:276)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:329)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:332)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:384)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:405)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: IllegalStateException occurred while parsing file C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java.
+	at com.puppycrawl.tools.checkstyle.JavaParser.parse(JavaParser.java:120)
+	at com.puppycrawl.tools.checkstyle.TreeWalker.processFiltered(TreeWalker.java:149)
+	at com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck.process(AbstractFileSetCheck.java:87)
+	at com.puppycrawl.tools.checkstyle.Checker.processFile(Checker.java:337)
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:298)
+	... 16 more
+Caused by: java.lang.IllegalStateException: C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java:188:9: unexpected token: myValueField
+	at com.puppycrawl.tools.checkstyle.JavaParser$1.reportError(JavaParser.java:108)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinition(GeneratedJavaRecognizer.java:424)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.compilationUnit(GeneratedJavaRecognizer.java:212)
+	at com.puppycrawl.tools.checkstyle.JavaParser.parse(JavaParser.java:114)
+	... 20 more
+Caused by: C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java:188:9: unexpected token: myValueField
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.traditionalStatement(GeneratedJavaRecognizer.java:6023)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.statement(GeneratedJavaRecognizer.java:4814)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.compoundStatement(GeneratedJavaRecognizer.java:4543)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.field(GeneratedJavaRecognizer.java:3158)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.classBlock(GeneratedJavaRecognizer.java:3415)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.classDefinition(GeneratedJavaRecognizer.java:646)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinitionInternal(GeneratedJavaRecognizer.java:561)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinition(GeneratedJavaRecognizer.java:402)
+	... 22 more
+
+!ENTRY net.sf.eclipsecs.core 4 0 2021-03-12 13:17:27.981
+!MESSAGE Checkstyle-Plugin: Exception was thrown while processing C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java
+!STACK 0
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: Exception was thrown while processing C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:311)
+	at com.puppycrawl.tools.checkstyle.Checker.process(Checker.java:221)
+	at net.sf.eclipsecs.core.builder.Auditor.runAudit(Auditor.java:146)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:307)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.build(CheckstyleBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:845)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:228)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:276)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:329)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:332)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:384)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:405)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: IllegalStateException occurred while parsing file C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java.
+	at com.puppycrawl.tools.checkstyle.JavaParser.parse(JavaParser.java:120)
+	at com.puppycrawl.tools.checkstyle.TreeWalker.processFiltered(TreeWalker.java:149)
+	at com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck.process(AbstractFileSetCheck.java:87)
+	at com.puppycrawl.tools.checkstyle.Checker.processFile(Checker.java:337)
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:298)
+	... 16 more
+Caused by: java.lang.IllegalStateException: C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java:188:9: unexpected token: myValueField
+	at com.puppycrawl.tools.checkstyle.JavaParser$1.reportError(JavaParser.java:108)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinition(GeneratedJavaRecognizer.java:424)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.compilationUnit(GeneratedJavaRecognizer.java:212)
+	at com.puppycrawl.tools.checkstyle.JavaParser.parse(JavaParser.java:114)
+	... 20 more
+Caused by: C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java:188:9: unexpected token: myValueField
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.traditionalStatement(GeneratedJavaRecognizer.java:6023)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.statement(GeneratedJavaRecognizer.java:4814)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.compoundStatement(GeneratedJavaRecognizer.java:4543)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.field(GeneratedJavaRecognizer.java:3158)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.classBlock(GeneratedJavaRecognizer.java:3415)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.classDefinition(GeneratedJavaRecognizer.java:646)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinitionInternal(GeneratedJavaRecognizer.java:561)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinition(GeneratedJavaRecognizer.java:402)
+	... 22 more
+
+!ENTRY net.sf.eclipsecs.core 4 0 2021-03-12 13:22:16.818
+!MESSAGE Checkstyle-Plugin: Exception was thrown while processing C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ColorController.java
+!STACK 0
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: Exception was thrown while processing C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ColorController.java
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:311)
+	at com.puppycrawl.tools.checkstyle.Checker.process(Checker.java:221)
+	at net.sf.eclipsecs.core.builder.Auditor.runAudit(Auditor.java:146)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:307)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.build(CheckstyleBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:845)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:228)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:276)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:329)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:332)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:384)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:405)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: IllegalStateException occurred while parsing file C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ColorController.java.
+	at com.puppycrawl.tools.checkstyle.JavaParser.parse(JavaParser.java:120)
+	at com.puppycrawl.tools.checkstyle.TreeWalker.processFiltered(TreeWalker.java:149)
+	at com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck.process(AbstractFileSetCheck.java:87)
+	at com.puppycrawl.tools.checkstyle.Checker.processFile(Checker.java:337)
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:298)
+	... 16 more
+Caused by: java.lang.IllegalStateException: C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ColorController.java:95:9: unexpected token: add
+	at com.puppycrawl.tools.checkstyle.JavaParser$1.reportError(JavaParser.java:108)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinition(GeneratedJavaRecognizer.java:424)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.compilationUnit(GeneratedJavaRecognizer.java:212)
+	at com.puppycrawl.tools.checkstyle.JavaParser.parse(JavaParser.java:114)
+	... 20 more
+Caused by: C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ColorController.java:95:9: unexpected token: add
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.traditionalStatement(GeneratedJavaRecognizer.java:6023)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.statement(GeneratedJavaRecognizer.java:4814)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.compoundStatement(GeneratedJavaRecognizer.java:4543)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.field(GeneratedJavaRecognizer.java:3158)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.classBlock(GeneratedJavaRecognizer.java:3415)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.classDefinition(GeneratedJavaRecognizer.java:646)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinitionInternal(GeneratedJavaRecognizer.java:561)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinition(GeneratedJavaRecognizer.java:402)
+	... 22 more
+
+!ENTRY net.sf.eclipsecs.core 4 0 2021-03-12 13:22:18.838
+!MESSAGE Checkstyle-Plugin: Exception was thrown while processing C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ColorController.java
+!STACK 0
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: Exception was thrown while processing C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ColorController.java
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:311)
+	at com.puppycrawl.tools.checkstyle.Checker.process(Checker.java:221)
+	at net.sf.eclipsecs.core.builder.Auditor.runAudit(Auditor.java:146)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:307)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.build(CheckstyleBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:845)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:228)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:276)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:329)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:332)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:384)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:405)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: IllegalStateException occurred while parsing file C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ColorController.java.
+	at com.puppycrawl.tools.checkstyle.JavaParser.parse(JavaParser.java:120)
+	at com.puppycrawl.tools.checkstyle.TreeWalker.processFiltered(TreeWalker.java:149)
+	at com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck.process(AbstractFileSetCheck.java:87)
+	at com.puppycrawl.tools.checkstyle.Checker.processFile(Checker.java:337)
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:298)
+	... 16 more
+Caused by: java.lang.IllegalStateException: C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ColorController.java:95:9: unexpected token: add
+	at com.puppycrawl.tools.checkstyle.JavaParser$1.reportError(JavaParser.java:108)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinition(GeneratedJavaRecognizer.java:424)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.compilationUnit(GeneratedJavaRecognizer.java:212)
+	at com.puppycrawl.tools.checkstyle.JavaParser.parse(JavaParser.java:114)
+	... 20 more
+Caused by: C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ColorController.java:95:9: unexpected token: add
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.traditionalStatement(GeneratedJavaRecognizer.java:6023)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.statement(GeneratedJavaRecognizer.java:4814)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.compoundStatement(GeneratedJavaRecognizer.java:4543)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.field(GeneratedJavaRecognizer.java:3158)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.classBlock(GeneratedJavaRecognizer.java:3415)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.classDefinition(GeneratedJavaRecognizer.java:646)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinitionInternal(GeneratedJavaRecognizer.java:561)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinition(GeneratedJavaRecognizer.java:402)
+	... 22 more
+
+!ENTRY org.eclipse.jface.text 4 2 2021-03-12 13:27:09.924
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jface.text".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "net.sf.eclipsecs.core.config.meta.RuleMetadata.getQuickfixClassNames()" because "ruleMetadata" is null
+	at net.sf.eclipsecs.ui.quickfixes.CheckstyleMarkerResolutionGenerator.getInstantiatedQuickfixes(CheckstyleMarkerResolutionGenerator.java:102)
+	at net.sf.eclipsecs.ui.quickfixes.CheckstyleMarkerResolutionGenerator.getResolutions(CheckstyleMarkerResolutionGenerator.java:56)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.getResolutions(MarkerHelpRegistry.java:394)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectMarkerProposals(JavaCorrectionProcessor.java:318)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectProposals(JavaCorrectionProcessor.java:277)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.computeQuickAssistProposals(JavaCorrectionProcessor.java:247)
+	at org.eclipse.jface.text.quickassist.QuickAssistAssistant$ContentAssistProcessor.computeCompletionProposals(QuickAssistAssistant.java:71)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$2.lambda$0(ContentAssistant.java:2017)
+	at java.base/java.util.Collections$SingletonSet.forEach(Collections.java:4872)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$2.run(ContentAssistant.java:2016)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.computeCompletionProposals(ContentAssistant.java:2013)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.computeProposals(CompletionProposalPopup.java:575)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.lambda$0(CompletionProposalPopup.java:505)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.showProposals(CompletionProposalPopup.java:500)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.showPossibleCompletions(ContentAssistant.java:1827)
+	at org.eclipse.jface.text.quickassist.QuickAssistAssistant.showPossibleQuickAssists(QuickAssistAssistant.java:113)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionAssistant.showPossibleQuickAssists(JavaCorrectionAssistant.java:194)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer.doOperation(CompilationUnitEditor.java:200)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaSelectAnnotationRulerAction.runWithEvent(JavaSelectAnnotationRulerAction.java:101)
+	at org.eclipse.ui.texteditor.AbstractRulerActionDelegate.runWithEvent(AbstractRulerActionDelegate.java:112)
+	at org.eclipse.ui.internal.handlers.ActionDelegateHandlerProxy.execute(ActionDelegateHandlerProxy.java:281)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.ui.actions.ContributedAction.runWithEvent(ContributedAction.java:176)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$1.triggerAction(AbstractTextEditor.java:3030)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$1.lambda$0(AbstractTextEditor.java:3044)
+	at org.eclipse.swt.widgets.Display.runTimer(Display.java:4124)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3248)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.eclipse.jface.text 4 0 2021-03-12 13:27:09.925
+!MESSAGE Error computing completion proposals.
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "net.sf.eclipsecs.core.config.meta.RuleMetadata.getQuickfixClassNames()" because "ruleMetadata" is null
+	at net.sf.eclipsecs.ui.quickfixes.CheckstyleMarkerResolutionGenerator.getInstantiatedQuickfixes(CheckstyleMarkerResolutionGenerator.java:102)
+	at net.sf.eclipsecs.ui.quickfixes.CheckstyleMarkerResolutionGenerator.getResolutions(CheckstyleMarkerResolutionGenerator.java:56)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.getResolutions(MarkerHelpRegistry.java:394)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectMarkerProposals(JavaCorrectionProcessor.java:318)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectProposals(JavaCorrectionProcessor.java:277)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.computeQuickAssistProposals(JavaCorrectionProcessor.java:247)
+	at org.eclipse.jface.text.quickassist.QuickAssistAssistant$ContentAssistProcessor.computeCompletionProposals(QuickAssistAssistant.java:71)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$2.lambda$0(ContentAssistant.java:2017)
+	at java.base/java.util.Collections$SingletonSet.forEach(Collections.java:4872)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$2.run(ContentAssistant.java:2016)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.computeCompletionProposals(ContentAssistant.java:2013)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.computeProposals(CompletionProposalPopup.java:575)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.lambda$0(CompletionProposalPopup.java:505)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.showProposals(CompletionProposalPopup.java:500)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.showPossibleCompletions(ContentAssistant.java:1827)
+	at org.eclipse.jface.text.quickassist.QuickAssistAssistant.showPossibleQuickAssists(QuickAssistAssistant.java:113)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionAssistant.showPossibleQuickAssists(JavaCorrectionAssistant.java:194)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer.doOperation(CompilationUnitEditor.java:200)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaSelectAnnotationRulerAction.runWithEvent(JavaSelectAnnotationRulerAction.java:101)
+	at org.eclipse.ui.texteditor.AbstractRulerActionDelegate.runWithEvent(AbstractRulerActionDelegate.java:112)
+	at org.eclipse.ui.internal.handlers.ActionDelegateHandlerProxy.execute(ActionDelegateHandlerProxy.java:281)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.ui.actions.ContributedAction.runWithEvent(ContributedAction.java:176)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$1.triggerAction(AbstractTextEditor.java:3030)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$1.lambda$0(AbstractTextEditor.java:3044)
+	at org.eclipse.swt.widgets.Display.runTimer(Display.java:4124)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3248)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY net.sf.eclipsecs.core 4 0 2021-03-12 13:37:45.851
+!MESSAGE Checkstyle-Plugin: Exception was thrown while processing C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java
+!STACK 0
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: Exception was thrown while processing C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:311)
+	at com.puppycrawl.tools.checkstyle.Checker.process(Checker.java:221)
+	at net.sf.eclipsecs.core.builder.Auditor.runAudit(Auditor.java:146)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:307)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.build(CheckstyleBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:845)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:228)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:276)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:329)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:332)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:384)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:405)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: IllegalStateException occurred while parsing file C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java.
+	at com.puppycrawl.tools.checkstyle.JavaParser.parse(JavaParser.java:120)
+	at com.puppycrawl.tools.checkstyle.TreeWalker.processFiltered(TreeWalker.java:149)
+	at com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck.process(AbstractFileSetCheck.java:87)
+	at com.puppycrawl.tools.checkstyle.Checker.processFile(Checker.java:337)
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:298)
+	... 16 more
+Caused by: java.lang.IllegalStateException: C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java:103:9: unexpected token: myAllColor
+	at com.puppycrawl.tools.checkstyle.JavaParser$1.reportError(JavaParser.java:108)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinition(GeneratedJavaRecognizer.java:424)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.compilationUnit(GeneratedJavaRecognizer.java:212)
+	at com.puppycrawl.tools.checkstyle.JavaParser.parse(JavaParser.java:114)
+	... 20 more
+Caused by: C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java:103:9: unexpected token: myAllColor
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.traditionalStatement(GeneratedJavaRecognizer.java:6023)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.statement(GeneratedJavaRecognizer.java:4814)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.constructorBody(GeneratedJavaRecognizer.java:3313)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.field(GeneratedJavaRecognizer.java:3107)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.classBlock(GeneratedJavaRecognizer.java:3415)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.classDefinition(GeneratedJavaRecognizer.java:646)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinitionInternal(GeneratedJavaRecognizer.java:561)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinition(GeneratedJavaRecognizer.java:402)
+	... 22 more
+
+!ENTRY net.sf.eclipsecs.core 4 0 2021-03-12 13:55:32.089
+!MESSAGE Checkstyle-Plugin: Exception was thrown while processing C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java
+!STACK 0
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: Exception was thrown while processing C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:311)
+	at com.puppycrawl.tools.checkstyle.Checker.process(Checker.java:221)
+	at net.sf.eclipsecs.core.builder.Auditor.runAudit(Auditor.java:146)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:307)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.build(CheckstyleBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:845)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:228)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:276)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:329)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:332)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:384)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:405)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: IllegalStateException occurred while parsing file C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java.
+	at com.puppycrawl.tools.checkstyle.JavaParser.parse(JavaParser.java:120)
+	at com.puppycrawl.tools.checkstyle.TreeWalker.processFiltered(TreeWalker.java:149)
+	at com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck.process(AbstractFileSetCheck.java:87)
+	at com.puppycrawl.tools.checkstyle.Checker.processFile(Checker.java:337)
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:298)
+	... 16 more
+Caused by: java.lang.IllegalStateException: C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java:111:9: expecting SEMI, found 'myAllColor'
+	at com.puppycrawl.tools.checkstyle.JavaParser$1.reportError(JavaParser.java:108)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinition(GeneratedJavaRecognizer.java:424)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.compilationUnit(GeneratedJavaRecognizer.java:212)
+	at com.puppycrawl.tools.checkstyle.JavaParser.parse(JavaParser.java:114)
+	... 20 more
+Caused by: C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java:111:9: expecting SEMI, found 'myAllColor'
+	at antlr.Parser.match(Parser.java:211)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.traditionalStatement(GeneratedJavaRecognizer.java:5923)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.statement(GeneratedJavaRecognizer.java:4814)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.compoundStatement(GeneratedJavaRecognizer.java:4543)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.field(GeneratedJavaRecognizer.java:3158)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.classBlock(GeneratedJavaRecognizer.java:3415)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.classDefinition(GeneratedJavaRecognizer.java:646)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinitionInternal(GeneratedJavaRecognizer.java:561)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinition(GeneratedJavaRecognizer.java:402)
+	... 22 more
+
+!ENTRY net.sf.eclipsecs.core 4 0 2021-03-12 16:08:25.819
+!MESSAGE Checkstyle-Plugin: Exception was thrown while processing C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java
+!STACK 0
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: Exception was thrown while processing C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:311)
+	at com.puppycrawl.tools.checkstyle.Checker.process(Checker.java:221)
+	at net.sf.eclipsecs.core.builder.Auditor.runAudit(Auditor.java:146)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:307)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.build(CheckstyleBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:845)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:228)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:276)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:329)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:332)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:384)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:405)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: IllegalStateException occurred while parsing file C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java.
+	at com.puppycrawl.tools.checkstyle.JavaParser.parse(JavaParser.java:120)
+	at com.puppycrawl.tools.checkstyle.TreeWalker.processFiltered(TreeWalker.java:149)
+	at com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck.process(AbstractFileSetCheck.java:87)
+	at com.puppycrawl.tools.checkstyle.Checker.processFile(Checker.java:337)
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:298)
+	... 16 more
+Caused by: java.lang.IllegalStateException: C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java:80:49: unexpected token: =
+	at com.puppycrawl.tools.checkstyle.JavaParser$1.reportError(JavaParser.java:108)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinition(GeneratedJavaRecognizer.java:424)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.compilationUnit(GeneratedJavaRecognizer.java:212)
+	at com.puppycrawl.tools.checkstyle.JavaParser.parse(JavaParser.java:114)
+	... 20 more
+Caused by: C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java:80:49: unexpected token: =
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.field(GeneratedJavaRecognizer.java:3213)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.classBlock(GeneratedJavaRecognizer.java:3415)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.classDefinition(GeneratedJavaRecognizer.java:646)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinitionInternal(GeneratedJavaRecognizer.java:561)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinition(GeneratedJavaRecognizer.java:402)
+	... 22 more
+
+!ENTRY net.sf.eclipsecs.core 4 0 2021-03-12 16:08:53.188
+!MESSAGE Checkstyle-Plugin: Exception was thrown while processing C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java
+!STACK 0
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: Exception was thrown while processing C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:311)
+	at com.puppycrawl.tools.checkstyle.Checker.process(Checker.java:221)
+	at net.sf.eclipsecs.core.builder.Auditor.runAudit(Auditor.java:146)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:307)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.build(CheckstyleBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:845)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:228)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:276)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:329)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:332)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:384)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:405)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: IllegalStateException occurred while parsing file C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java.
+	at com.puppycrawl.tools.checkstyle.JavaParser.parse(JavaParser.java:120)
+	at com.puppycrawl.tools.checkstyle.TreeWalker.processFiltered(TreeWalker.java:149)
+	at com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck.process(AbstractFileSetCheck.java:87)
+	at com.puppycrawl.tools.checkstyle.Checker.processFile(Checker.java:337)
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:298)
+	... 16 more
+Caused by: java.lang.IllegalStateException: C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java:80:58: unexpected token: =
+	at com.puppycrawl.tools.checkstyle.JavaParser$1.reportError(JavaParser.java:108)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinition(GeneratedJavaRecognizer.java:424)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.compilationUnit(GeneratedJavaRecognizer.java:212)
+	at com.puppycrawl.tools.checkstyle.JavaParser.parse(JavaParser.java:114)
+	... 20 more
+Caused by: C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java:80:58: unexpected token: =
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.field(GeneratedJavaRecognizer.java:3213)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.classBlock(GeneratedJavaRecognizer.java:3415)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.classDefinition(GeneratedJavaRecognizer.java:646)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinitionInternal(GeneratedJavaRecognizer.java:561)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinition(GeneratedJavaRecognizer.java:402)
+	... 22 more
+
+!ENTRY com.github.spotbugs.plugin.eclipse 2 2 2021-03-12 16:09:20.812
+!MESSAGE The following classes needed for SpotBugs analysis on project nlebeo-coloradjuster were missing:
+!SUBENTRY 1 com.github.spotbugs.plugin.eclipse 2 0 2021-03-12 16:09:20.812
+!MESSAGE Function
+
+!ENTRY com.github.spotbugs.plugin.eclipse 2 2 2021-03-12 16:09:22.874
+!MESSAGE The following classes needed for SpotBugs analysis on project nlebeo-coloradjuster were missing:
+!SUBENTRY 1 com.github.spotbugs.plugin.eclipse 2 0 2021-03-12 16:09:22.874
+!MESSAGE Function
+
+!ENTRY com.github.spotbugs.plugin.eclipse 2 2 2021-03-12 16:13:00.083
+!MESSAGE The following classes needed for SpotBugs analysis on project nlebeo-coloradjuster were missing:
+!SUBENTRY 1 com.github.spotbugs.plugin.eclipse 2 0 2021-03-12 16:13:00.083
+!MESSAGE Function
+
+!ENTRY net.sf.eclipsecs.core 4 0 2021-03-12 18:25:24.743
+!MESSAGE Checkstyle-Plugin: Exception was thrown while processing C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java
+!STACK 0
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: Exception was thrown while processing C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:311)
+	at com.puppycrawl.tools.checkstyle.Checker.process(Checker.java:221)
+	at net.sf.eclipsecs.core.builder.Auditor.runAudit(Auditor.java:146)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:307)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.build(CheckstyleBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:845)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:228)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:276)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:329)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:332)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:384)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:405)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: IllegalStateException occurred while parsing file C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java.
+	at com.puppycrawl.tools.checkstyle.JavaParser.parse(JavaParser.java:120)
+	at com.puppycrawl.tools.checkstyle.TreeWalker.processFiltered(TreeWalker.java:149)
+	at com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck.process(AbstractFileSetCheck.java:87)
+	at com.puppycrawl.tools.checkstyle.Checker.processFile(Checker.java:337)
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:298)
+	... 16 more
+Caused by: java.lang.IllegalStateException: C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java:96:5: unexpected token: private
+	at com.puppycrawl.tools.checkstyle.JavaParser$1.reportError(JavaParser.java:108)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinition(GeneratedJavaRecognizer.java:424)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.compilationUnit(GeneratedJavaRecognizer.java:212)
+	at com.puppycrawl.tools.checkstyle.JavaParser.parse(JavaParser.java:114)
+	... 20 more
+Caused by: C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java:96:5: unexpected token: private
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.field(GeneratedJavaRecognizer.java:3213)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.classBlock(GeneratedJavaRecognizer.java:3415)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.classDefinition(GeneratedJavaRecognizer.java:646)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinitionInternal(GeneratedJavaRecognizer.java:561)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinition(GeneratedJavaRecognizer.java:402)
+	... 22 more
+
+!ENTRY net.sf.eclipsecs.core 4 0 2021-03-12 18:40:03.006
+!MESSAGE Checkstyle-Plugin: Exception was thrown while processing C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java
+!STACK 0
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: Exception was thrown while processing C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:311)
+	at com.puppycrawl.tools.checkstyle.Checker.process(Checker.java:221)
+	at net.sf.eclipsecs.core.builder.Auditor.runAudit(Auditor.java:146)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:307)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.build(CheckstyleBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:845)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:228)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:276)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:329)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:332)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:384)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:405)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: IllegalStateException occurred while parsing file C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java.
+	at com.puppycrawl.tools.checkstyle.JavaParser.parse(JavaParser.java:120)
+	at com.puppycrawl.tools.checkstyle.TreeWalker.processFiltered(TreeWalker.java:149)
+	at com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck.process(AbstractFileSetCheck.java:87)
+	at com.puppycrawl.tools.checkstyle.Checker.processFile(Checker.java:337)
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:298)
+	... 16 more
+Caused by: java.lang.IllegalStateException: C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java:219:9: unexpected token: myValueField
+	at com.puppycrawl.tools.checkstyle.JavaParser$1.reportError(JavaParser.java:108)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinition(GeneratedJavaRecognizer.java:424)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.compilationUnit(GeneratedJavaRecognizer.java:212)
+	at com.puppycrawl.tools.checkstyle.JavaParser.parse(JavaParser.java:114)
+	... 20 more
+Caused by: C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java:219:9: unexpected token: myValueField
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.traditionalStatement(GeneratedJavaRecognizer.java:6023)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.statement(GeneratedJavaRecognizer.java:4814)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.compoundStatement(GeneratedJavaRecognizer.java:4543)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.field(GeneratedJavaRecognizer.java:3158)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.classBlock(GeneratedJavaRecognizer.java:3415)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.classDefinition(GeneratedJavaRecognizer.java:646)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinitionInternal(GeneratedJavaRecognizer.java:561)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinition(GeneratedJavaRecognizer.java:402)
+	... 22 more
+
+!ENTRY net.sf.eclipsecs.core 4 0 2021-03-12 18:41:21.247
+!MESSAGE Checkstyle-Plugin: Exception was thrown while processing C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java
+!STACK 0
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: Exception was thrown while processing C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:311)
+	at com.puppycrawl.tools.checkstyle.Checker.process(Checker.java:221)
+	at net.sf.eclipsecs.core.builder.Auditor.runAudit(Auditor.java:146)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:307)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.build(CheckstyleBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:845)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:228)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:276)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:329)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:332)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:384)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:405)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: IllegalStateException occurred while parsing file C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java.
+	at com.puppycrawl.tools.checkstyle.JavaParser.parse(JavaParser.java:120)
+	at com.puppycrawl.tools.checkstyle.TreeWalker.processFiltered(TreeWalker.java:149)
+	at com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck.process(AbstractFileSetCheck.java:87)
+	at com.puppycrawl.tools.checkstyle.Checker.processFile(Checker.java:337)
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:298)
+	... 16 more
+Caused by: java.lang.IllegalStateException: C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java:219:9: unexpected token: myValueField
+	at com.puppycrawl.tools.checkstyle.JavaParser$1.reportError(JavaParser.java:108)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinition(GeneratedJavaRecognizer.java:424)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.compilationUnit(GeneratedJavaRecognizer.java:212)
+	at com.puppycrawl.tools.checkstyle.JavaParser.parse(JavaParser.java:114)
+	... 20 more
+Caused by: C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java:219:9: unexpected token: myValueField
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.traditionalStatement(GeneratedJavaRecognizer.java:6023)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.statement(GeneratedJavaRecognizer.java:4814)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.compoundStatement(GeneratedJavaRecognizer.java:4543)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.field(GeneratedJavaRecognizer.java:3158)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.classBlock(GeneratedJavaRecognizer.java:3415)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.classDefinition(GeneratedJavaRecognizer.java:646)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinitionInternal(GeneratedJavaRecognizer.java:561)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinition(GeneratedJavaRecognizer.java:402)
+	... 22 more
+
+!ENTRY net.sf.eclipsecs.core 4 0 2021-03-12 18:44:56.541
+!MESSAGE Checkstyle-Plugin: Exception was thrown while processing C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java
+!STACK 0
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: Exception was thrown while processing C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:311)
+	at com.puppycrawl.tools.checkstyle.Checker.process(Checker.java:221)
+	at net.sf.eclipsecs.core.builder.Auditor.runAudit(Auditor.java:146)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:307)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.build(CheckstyleBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:845)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:228)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:276)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:329)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:332)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:384)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:405)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: IllegalStateException occurred while parsing file C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java.
+	at com.puppycrawl.tools.checkstyle.JavaParser.parse(JavaParser.java:120)
+	at com.puppycrawl.tools.checkstyle.TreeWalker.processFiltered(TreeWalker.java:149)
+	at com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck.process(AbstractFileSetCheck.java:87)
+	at com.puppycrawl.tools.checkstyle.Checker.processFile(Checker.java:337)
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:298)
+	... 16 more
+Caused by: java.lang.IllegalStateException: C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java:162:79: expecting RCURLY, found ')'
+	at com.puppycrawl.tools.checkstyle.JavaParser$1.reportError(JavaParser.java:108)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinition(GeneratedJavaRecognizer.java:424)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.compilationUnit(GeneratedJavaRecognizer.java:212)
+	at com.puppycrawl.tools.checkstyle.JavaParser.parse(JavaParser.java:114)
+	... 20 more
+Caused by: C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\src\contoller\ValueRowPanel.java:162:79: expecting RCURLY, found ')'
+	at antlr.Parser.match(Parser.java:211)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.compoundStatement(GeneratedJavaRecognizer.java:4555)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.field(GeneratedJavaRecognizer.java:3158)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.classBlock(GeneratedJavaRecognizer.java:3415)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.classDefinition(GeneratedJavaRecognizer.java:646)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinitionInternal(GeneratedJavaRecognizer.java:561)
+	at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinition(GeneratedJavaRecognizer.java:402)
+	... 22 more
+!SESSION 2021-03-14 12:56:24.998 -----------------------------------------------
+eclipse.buildId=4.18.0.I20201202-1800
+java.version=15.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2021-03-14 12:56:27.510
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-14 12:56:27.510
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3265995e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@33f2eb04,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-14 12:56:27.510
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4df13dd0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2ed7978c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-03-14 12:56:34.054
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\nle01'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2021-03-20 12:30:30.346 -----------------------------------------------
+eclipse.buildId=4.18.0.I20201202-1800
+java.version=15.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2021-03-20 12:30:32.879
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-20 12:30:32.879
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@b8142f4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@52d59507,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-20 12:30:32.879
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4d75c604,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3265995e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-03-20 12:30:39.340
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\nle01'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:25.786
+!MESSAGE The rule UnusedModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:25.786
+!MESSAGE The rule BooleanInversion could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:25.789
+!MESSAGE The rule UncommentedEmptyMethod could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:25.791
+!MESSAGE The rule EmptyStaticInitializer could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:25.792
+!MESSAGE The rule MisleadingVariableName could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:25.793
+!MESSAGE The rule UnnecessaryFinalModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:25.793
+!MESSAGE The rule AvoidConstantsInterface could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:25.794
+!MESSAGE The rule UnusedModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:25.795
+!MESSAGE The rule BooleanInversion could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:25.798
+!MESSAGE The rule UncommentedEmptyMethod could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:25.800
+!MESSAGE The rule EmptyStaticInitializer could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:25.800
+!MESSAGE The rule MisleadingVariableName could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:25.801
+!MESSAGE The rule UnnecessaryFinalModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:25.801
+!MESSAGE The rule AvoidConstantsInterface could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:25.820
+!MESSAGE Creating new auxclasspath class loader for project FirstAnimationExample
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:25.821
+!MESSAGE Creating new auxclasspath class loader for project 2DGraphics examples
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:25.854
+!MESSAGE The rule UnusedModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:25.854
+!MESSAGE The rule BooleanInversion could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:25.855
+!MESSAGE The rule UncommentedEmptyMethod could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:25.856
+!MESSAGE The rule EmptyStaticInitializer could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:25.856
+!MESSAGE The rule MisleadingVariableName could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:25.857
+!MESSAGE The rule UnnecessaryFinalModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:25.857
+!MESSAGE The rule AvoidConstantsInterface could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:25.879
+!MESSAGE Creating new auxclasspath class loader for project Functional Programming Examples (Starting)
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:26.121
+!MESSAGE The rule UnusedModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:26.122
+!MESSAGE The rule BooleanInversion could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:26.123
+!MESSAGE The rule UncommentedEmptyMethod could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:26.124
+!MESSAGE The rule EmptyStaticInitializer could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:26.125
+!MESSAGE The rule MisleadingVariableName could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:26.125
+!MESSAGE The rule UnnecessaryFinalModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:26.125
+!MESSAGE The rule AvoidConstantsInterface could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:26.139
+!MESSAGE Creating new auxclasspath class loader for project Swing GUI Examples (First ActionListeners)
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:26.335
+!MESSAGE The rule UnusedModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:26.335
+!MESSAGE The rule BooleanInversion could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:26.336
+!MESSAGE The rule UncommentedEmptyMethod could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:26.337
+!MESSAGE The rule EmptyStaticInitializer could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:26.337
+!MESSAGE The rule MisleadingVariableName could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:26.338
+!MESSAGE The rule UnnecessaryFinalModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:26.338
+!MESSAGE The rule AvoidConstantsInterface could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:26.350
+!MESSAGE Creating new auxclasspath class loader for project Swing GUI Examples (Layouts)
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:26.597
+!MESSAGE The rule UnusedModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:26.598
+!MESSAGE The rule BooleanInversion could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:26.599
+!MESSAGE The rule UncommentedEmptyMethod could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:26.600
+!MESSAGE The rule EmptyStaticInitializer could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:26.600
+!MESSAGE The rule MisleadingVariableName could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:26.601
+!MESSAGE The rule UnnecessaryFinalModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:26.601
+!MESSAGE The rule AvoidConstantsInterface could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:26.616
+!MESSAGE Creating new auxclasspath class loader for project Swing GUI Examples (ToolBar, ColorChooser, FIle Menu)
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:27.438
+!MESSAGE The rule UnusedModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:27.439
+!MESSAGE The rule BooleanInversion could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:27.440
+!MESSAGE The rule UncommentedEmptyMethod could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:27.441
+!MESSAGE The rule EmptyStaticInitializer could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:27.441
+!MESSAGE The rule MisleadingVariableName could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:27.441
+!MESSAGE The rule UnnecessaryFinalModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:27.442
+!MESSAGE The rule AvoidConstantsInterface could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:27.454
+!MESSAGE Creating new auxclasspath class loader for project Swing GUI PCL Example (Time - V1.0)
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:28.390
+!MESSAGE The rule UnusedModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:28.391
+!MESSAGE The rule BooleanInversion could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:28.392
+!MESSAGE The rule UncommentedEmptyMethod could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:28.393
+!MESSAGE The rule EmptyStaticInitializer could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:28.393
+!MESSAGE The rule MisleadingVariableName could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:28.394
+!MESSAGE The rule UnnecessaryFinalModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:28.394
+!MESSAGE The rule AvoidConstantsInterface could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:28.407
+!MESSAGE Creating new auxclasspath class loader for project Swing GUI PCL Example (Time - V2.2)
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:30.395
+!MESSAGE The rule UnusedModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:30.396
+!MESSAGE The rule BooleanInversion could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:30.396
+!MESSAGE The rule UncommentedEmptyMethod could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:30.397
+!MESSAGE The rule EmptyStaticInitializer could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:30.397
+!MESSAGE The rule MisleadingVariableName could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:30.397
+!MESSAGE The rule UnnecessaryFinalModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:30.398
+!MESSAGE The rule AvoidConstantsInterface could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:30.409
+!MESSAGE Creating new auxclasspath class loader for project nlebeo-bookstore
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:30.856
+!MESSAGE The rule UnusedModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:30.857
+!MESSAGE The rule BooleanInversion could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:30.858
+!MESSAGE The rule UncommentedEmptyMethod could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:30.859
+!MESSAGE The rule EmptyStaticInitializer could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:30.860
+!MESSAGE The rule MisleadingVariableName could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:30.860
+!MESSAGE The rule UnnecessaryFinalModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:30.860
+!MESSAGE The rule AvoidConstantsInterface could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:30.872
+!MESSAGE Creating new auxclasspath class loader for project nlebeo-coloradjuster
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:30.928
+!MESSAGE The rule UnusedModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:30.929
+!MESSAGE The rule BooleanInversion could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:30.930
+!MESSAGE The rule UncommentedEmptyMethod could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:30.931
+!MESSAGE The rule EmptyStaticInitializer could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:30.931
+!MESSAGE The rule MisleadingVariableName could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:30.931
+!MESSAGE The rule UnnecessaryFinalModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:30.932
+!MESSAGE The rule AvoidConstantsInterface could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:30.946
+!MESSAGE Creating new auxclasspath class loader for project nlebeo-orientation
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:31.795
+!MESSAGE The rule UnusedModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:31.795
+!MESSAGE The rule BooleanInversion could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:31.796
+!MESSAGE The rule UncommentedEmptyMethod could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:31.798
+!MESSAGE The rule EmptyStaticInitializer could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:31.798
+!MESSAGE The rule MisleadingVariableName could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:31.799
+!MESSAGE The rule UnnecessaryFinalModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:31.799
+!MESSAGE The rule AvoidConstantsInterface could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:31.813
+!MESSAGE Creating new auxclasspath class loader for project nlebeo-roadrage
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:32.063
+!MESSAGE The rule UnusedModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:32.064
+!MESSAGE The rule BooleanInversion could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:32.065
+!MESSAGE The rule UncommentedEmptyMethod could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:32.066
+!MESSAGE The rule EmptyStaticInitializer could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:32.067
+!MESSAGE The rule MisleadingVariableName could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:32.067
+!MESSAGE The rule UnnecessaryFinalModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:32.067
+!MESSAGE The rule AvoidConstantsInterface could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-03-20 12:39:32.105
+!MESSAGE Creating new auxclasspath class loader for project nlebeo-snapshop
+
+!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2021-03-20 13:24:24.855
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.ui.texteditor.ITextEditor.isDirty()" because "this.fTextEditor" is null
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextEditorSavable.isDirty(AbstractTextEditor.java:7165)
+	at org.eclipse.ui.internal.SaveableHelper.waitForBackgroundSaveJobs(SaveableHelper.java:451)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:674)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:643)
+	at org.eclipse.ui.internal.SaveablesList.promptForSavingIfNecessary(SaveablesList.java:622)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:564)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:498)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:493)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:488)
+	at org.eclipse.ui.internal.WorkbenchWindow$2.save(WorkbenchWindow.java:565)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.savePart(PartServiceImpl.java:1446)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.closePart(StackRenderer.java:1181)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$3.close(StackRenderer.java:1042)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1958)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:335)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+!SESSION 2021-03-29 15:22:29.864 -----------------------------------------------
+eclipse.buildId=4.18.0.I20201202-1800
+java.version=15.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2021-03-29 15:22:32.357
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-29 15:22:32.357
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@52d59507,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4d75c604,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-29 15:22:32.357
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3265995e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@33f2eb04,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-03-29 15:22:40.484
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\nle01'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2021-04-01 13:27:13.723 -----------------------------------------------
+eclipse.buildId=4.18.0.I20201202-1800
+java.version=15.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2021-04-01 13:27:31.791
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-04-01 13:27:31.791
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5b4d9bda,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@467a2584,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-04-01 13:27:31.791
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@121dce2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6df31abf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-04-01 13:27:42.342
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\nle01'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2021-04-06 15:16:34.025 -----------------------------------------------
+eclipse.buildId=4.18.0.I20201202-1800
+java.version=15.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2021-04-06 15:16:40.143
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-04-06 15:16:40.143
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@19f1be04,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5d6b5d3d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-04-06 15:16:40.143
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@464d5365,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@38394dc3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-04-06 15:16:47.948
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\nle01'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.268
+!MESSAGE The rule UnusedModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.269
+!MESSAGE The rule BooleanInversion could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.272
+!MESSAGE The rule UncommentedEmptyMethod could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.273
+!MESSAGE The rule EmptyStaticInitializer could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.274
+!MESSAGE The rule MisleadingVariableName could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.274
+!MESSAGE The rule UnnecessaryFinalModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.275
+!MESSAGE The rule AvoidConstantsInterface could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.293
+!MESSAGE The rule UnusedModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.294
+!MESSAGE The rule BooleanInversion could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.295
+!MESSAGE The rule UncommentedEmptyMethod could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.297
+!MESSAGE The rule EmptyStaticInitializer could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.297
+!MESSAGE The rule MisleadingVariableName could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.298
+!MESSAGE The rule UnnecessaryFinalModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.299
+!MESSAGE The rule AvoidConstantsInterface could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.303
+!MESSAGE Creating new auxclasspath class loader for project nlebeo-coloradjuster
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.315
+!MESSAGE Creating new auxclasspath class loader for project 2DGraphics examples
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.509
+!MESSAGE The rule UnusedModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.510
+!MESSAGE The rule BooleanInversion could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.512
+!MESSAGE The rule UncommentedEmptyMethod could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.513
+!MESSAGE The rule EmptyStaticInitializer could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.514
+!MESSAGE The rule MisleadingVariableName could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.515
+!MESSAGE The rule UnnecessaryFinalModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.516
+!MESSAGE The rule AvoidConstantsInterface could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.529
+!MESSAGE Creating new auxclasspath class loader for project FirstAnimationExample
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.613
+!MESSAGE The rule UnusedModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.615
+!MESSAGE The rule BooleanInversion could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.618
+!MESSAGE The rule UncommentedEmptyMethod could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.620
+!MESSAGE The rule EmptyStaticInitializer could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.621
+!MESSAGE The rule MisleadingVariableName could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.622
+!MESSAGE The rule UnnecessaryFinalModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.624
+!MESSAGE The rule AvoidConstantsInterface could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.644
+!MESSAGE Creating new auxclasspath class loader for project Functional Programming Examples (Starting)
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.802
+!MESSAGE The rule UnusedModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.803
+!MESSAGE The rule BooleanInversion could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.804
+!MESSAGE The rule UncommentedEmptyMethod could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.805
+!MESSAGE The rule EmptyStaticInitializer could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.806
+!MESSAGE The rule MisleadingVariableName could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.806
+!MESSAGE The rule UnnecessaryFinalModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.807
+!MESSAGE The rule AvoidConstantsInterface could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:06.819
+!MESSAGE Creating new auxclasspath class loader for project Swing GUI Examples (First ActionListeners)
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:07.293
+!MESSAGE The rule UnusedModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:07.295
+!MESSAGE The rule BooleanInversion could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:07.297
+!MESSAGE The rule UncommentedEmptyMethod could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:07.299
+!MESSAGE The rule EmptyStaticInitializer could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:07.299
+!MESSAGE The rule MisleadingVariableName could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:07.300
+!MESSAGE The rule UnnecessaryFinalModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:07.300
+!MESSAGE The rule AvoidConstantsInterface could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:07.313
+!MESSAGE Creating new auxclasspath class loader for project Swing GUI Examples (Layouts)
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:07.701
+!MESSAGE The rule UnusedModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:07.710
+!MESSAGE The rule BooleanInversion could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:07.712
+!MESSAGE The rule UncommentedEmptyMethod could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:07.716
+!MESSAGE The rule EmptyStaticInitializer could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:07.716
+!MESSAGE The rule MisleadingVariableName could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:07.717
+!MESSAGE The rule UnnecessaryFinalModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:07.717
+!MESSAGE The rule AvoidConstantsInterface could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:07.730
+!MESSAGE Creating new auxclasspath class loader for project Swing GUI Examples (ToolBar, ColorChooser, FIle Menu)
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:08.369
+!MESSAGE The rule UnusedModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:08.370
+!MESSAGE The rule BooleanInversion could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:08.371
+!MESSAGE The rule UncommentedEmptyMethod could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:08.373
+!MESSAGE The rule EmptyStaticInitializer could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:08.379
+!MESSAGE The rule MisleadingVariableName could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:08.458
+!MESSAGE The rule UnnecessaryFinalModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:08.480
+!MESSAGE The rule AvoidConstantsInterface could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:08.502
+!MESSAGE Creating new auxclasspath class loader for project Swing GUI PCL Example (Time - V1.0)
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:08.929
+!MESSAGE The rule UnusedModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:08.930
+!MESSAGE The rule BooleanInversion could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:08.931
+!MESSAGE The rule UncommentedEmptyMethod could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:08.933
+!MESSAGE The rule EmptyStaticInitializer could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:08.933
+!MESSAGE The rule MisleadingVariableName could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:08.934
+!MESSAGE The rule UnnecessaryFinalModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:08.935
+!MESSAGE The rule AvoidConstantsInterface could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:08.985
+!MESSAGE Creating new auxclasspath class loader for project Swing GUI PCL Example (Time - V2.2)
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:11.434
+!MESSAGE The rule UnusedModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:11.435
+!MESSAGE The rule BooleanInversion could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:11.437
+!MESSAGE The rule UncommentedEmptyMethod could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:11.438
+!MESSAGE The rule EmptyStaticInitializer could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:11.441
+!MESSAGE The rule MisleadingVariableName could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:11.442
+!MESSAGE The rule UnnecessaryFinalModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:11.444
+!MESSAGE The rule AvoidConstantsInterface could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:11.565
+!MESSAGE Creating new auxclasspath class loader for project nlebeo-bookstore
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:11.728
+!MESSAGE The rule UnusedModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:11.729
+!MESSAGE The rule BooleanInversion could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:11.730
+!MESSAGE The rule UncommentedEmptyMethod could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:11.731
+!MESSAGE The rule EmptyStaticInitializer could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:11.733
+!MESSAGE The rule MisleadingVariableName could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:11.733
+!MESSAGE The rule UnnecessaryFinalModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:11.734
+!MESSAGE The rule AvoidConstantsInterface could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:11.747
+!MESSAGE Creating new auxclasspath class loader for project nlebeo-orientation
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:12.430
+!MESSAGE The rule UnusedModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:12.431
+!MESSAGE The rule BooleanInversion could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:12.433
+!MESSAGE The rule UncommentedEmptyMethod could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:12.435
+!MESSAGE The rule EmptyStaticInitializer could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:12.435
+!MESSAGE The rule MisleadingVariableName could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:12.436
+!MESSAGE The rule UnnecessaryFinalModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:12.437
+!MESSAGE The rule AvoidConstantsInterface could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:12.449
+!MESSAGE Creating new auxclasspath class loader for project nlebeo-roadrage
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:12.884
+!MESSAGE The rule UnusedModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:12.885
+!MESSAGE The rule BooleanInversion could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:12.886
+!MESSAGE The rule UncommentedEmptyMethod could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:12.888
+!MESSAGE The rule EmptyStaticInitializer could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:12.889
+!MESSAGE The rule MisleadingVariableName could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:12.890
+!MESSAGE The rule UnnecessaryFinalModifier could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:12.891
+!MESSAGE The rule AvoidConstantsInterface could not be found. The rule will be ignored.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2021-04-06 15:17:12.906
+!MESSAGE Creating new auxclasspath class loader for project nlebeo-snapshop
+!SESSION 2021-04-13 15:54:58.799 -----------------------------------------------
+eclipse.buildId=4.18.0.I20201202-1800
+java.version=15.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2021-04-13 15:55:05.117
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-04-13 15:55:05.117
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@38394dc3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2cacd55e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-04-13 15:55:05.117
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2ba9f743,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7535f28,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-04-13 15:55:14.178
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\nle01'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

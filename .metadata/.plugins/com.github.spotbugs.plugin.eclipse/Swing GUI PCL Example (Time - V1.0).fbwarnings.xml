@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<BugCollection version="4.2.1" sequence="1" timestamp="1614592941567" analysisTimestamp="1614592936965" release="">
+<BugCollection version="4.2.1" sequence="1" timestamp="1617747431180" analysisTimestamp="1617747428329" release="">
   <Project projectName="Swing GUI PCL Example (Time - V1.0)">
     <Jar>C:\Users\nle01\eclipse-workspace\Swing GUI PCL Example (Time - V1.0)\bin</Jar>
     <AuxClasspathEntry>C:\Users\nle01\eclipse-workspace\Swing GUI PCL Example (Time - V1.0)\bin</AuxClasspathEntry>
@@ -10,7 +10,7 @@
     <SrcDir>C:\Users\nle01\eclipse-workspace\Swing GUI PCL Example (Time - V1.0)\src</SrcDir>
   </Project>
   <Errors errors="0" missingClasses="0"></Errors>
-  <FindBugsSummary timestamp="Mon, 1 Mar 2021 02:02:16 -0800" total_classes="7" referenced_classes="306" total_bugs="0" total_size="222" num_packages="4" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="44.55" clock_seconds="4.60" peak_mbytes="1088.42" alloc_mbytes="2048.00" gc_seconds="0.33">
+  <FindBugsSummary timestamp="Tue, 6 Apr 2021 15:17:07 -0700" total_classes="7" referenced_classes="306" total_bugs="0" total_size="222" num_packages="4" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="29.72" clock_seconds="2.85" peak_mbytes="1117.51" alloc_mbytes="2048.00" gc_seconds="0.22">
     <PackageStats package="" total_bugs="0" total_types="1" total_size="17">
       <ClassStats class="Application" sourceFile="Application.java" interface="false" size="17" bugs="0"/>
     </PackageStats>
@@ -27,17 +27,18 @@
       <ClassStats class="view.TimePanel" sourceFile="TimePanel.java" interface="false" size="55" bugs="0"/>
     </PackageStats>
     <FindBugsProfile>
-      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="1056" invocations="2" avgMicrosecondsPerInvocation="528414" maxMicrosecondsPerInvocation="994816" standardDeviationMicrosecondsPerInvocation="466402"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="812" invocations="1604" avgMicrosecondsPerInvocation="506" maxMicrosecondsPerInvocation="35628" standardDeviationMicrosecondsPerInvocation="1868"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="464" invocations="1608" avgMicrosecondsPerInvocation="288" maxMicrosecondsPerInvocation="45879" standardDeviationMicrosecondsPerInvocation="1756"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="408" invocations="306" avgMicrosecondsPerInvocation="1336" maxMicrosecondsPerInvocation="60923" standardDeviationMicrosecondsPerInvocation="4520"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="354" invocations="306" avgMicrosecondsPerInvocation="1157" maxMicrosecondsPerInvocation="35242" standardDeviationMicrosecondsPerInvocation="3160"/>
-      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="224" invocations="651" avgMicrosecondsPerInvocation="344" maxMicrosecondsPerInvocation="19076" standardDeviationMicrosecondsPerInvocation="951"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="172" invocations="306" avgMicrosecondsPerInvocation="563" maxMicrosecondsPerInvocation="51367" standardDeviationMicrosecondsPerInvocation="3052"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="569" invocations="1604" avgMicrosecondsPerInvocation="355" maxMicrosecondsPerInvocation="30423" standardDeviationMicrosecondsPerInvocation="1392"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="356" invocations="306" avgMicrosecondsPerInvocation="1163" maxMicrosecondsPerInvocation="39995" standardDeviationMicrosecondsPerInvocation="3518"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="322" invocations="306" avgMicrosecondsPerInvocation="1052" maxMicrosecondsPerInvocation="33424" standardDeviationMicrosecondsPerInvocation="2583"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="307" invocations="1608" avgMicrosecondsPerInvocation="190" maxMicrosecondsPerInvocation="22987" standardDeviationMicrosecondsPerInvocation="649"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="243" invocations="2" avgMicrosecondsPerInvocation="121618" maxMicrosecondsPerInvocation="160370" standardDeviationMicrosecondsPerInvocation="38750"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="205" invocations="651" avgMicrosecondsPerInvocation="315" maxMicrosecondsPerInvocation="22438" standardDeviationMicrosecondsPerInvocation="935"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="86" invocations="306" avgMicrosecondsPerInvocation="283" maxMicrosecondsPerInvocation="14149" standardDeviationMicrosecondsPerInvocation="1495"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="81" invocations="306" avgMicrosecondsPerInvocation="266" maxMicrosecondsPerInvocation="4120" standardDeviationMicrosecondsPerInvocation="526"/>
     </FindBugsProfile>
   </FindBugsSummary>
   <ClassFeatures></ClassFeatures>
   <History>
-    <AppVersion sequence="0" timestamp="1614592941567" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="0" timestamp="1617747431180" release="" codeSize="0" numClasses="0"/>
   </History>
 </BugCollection>

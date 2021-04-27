@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<BugCollection version="4.2.1" sequence="1" timestamp="1614592944636" analysisTimestamp="1614592942702" release="">
+<BugCollection version="4.2.1" sequence="1" timestamp="1617747434594" analysisTimestamp="1617747432881" release="">
   <Project projectName="nlebeo-snapshop">
     <Jar>C:\Users\nle01\eclipse-workspace\nlebeo-snapshop\bin</Jar>
     <AuxClasspathEntry>C:\Users\nle01\eclipse-workspace\nlebeo-snapshop\bin</AuxClasspathEntry>
@@ -30,7 +30,7 @@
     <SourceLine classname="gui.SnapShopGUI" start="223" end="223" startBytecode="56" endBytecode="56" sourcefile="SnapShopGUI.java" sourcepath="gui/SnapShopGUI.java"/>
   </BugInstance>
   <Errors errors="0" missingClasses="0"></Errors>
-  <FindBugsSummary timestamp="Mon, 1 Mar 2021 02:02:22 -0800" total_classes="16" referenced_classes="342" total_bugs="2" total_size="381" num_packages="3" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="14.39" clock_seconds="1.94" peak_mbytes="1276.82" alloc_mbytes="2048.00" gc_seconds="0.10" priority_2="2">
+  <FindBugsSummary timestamp="Tue, 6 Apr 2021 15:17:12 -0700" total_classes="16" referenced_classes="342" total_bugs="2" total_size="381" num_packages="3" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="12.55" clock_seconds="1.71" peak_mbytes="1446.51" alloc_mbytes="2048.00" gc_seconds="0.08" priority_2="2">
     <PackageStats package="filters" total_bugs="0" total_types="10" total_size="154">
       <ClassStats class="filters.AbstractFilter" sourceFile="AbstractFilter.java" interface="false" size="66" bugs="0"/>
       <ClassStats class="filters.AbstractWeightedFilter" sourceFile="AbstractWeightedFilter.java" interface="false" size="9" bugs="0"/>
@@ -54,17 +54,19 @@
       <ClassStats class="image.PixelImage" sourceFile="PixelImage.java" interface="false" size="43" bugs="0"/>
     </PackageStats>
     <FindBugsProfile>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="449" invocations="1691" avgMicrosecondsPerInvocation="265" maxMicrosecondsPerInvocation="49107" standardDeviationMicrosecondsPerInvocation="1470"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="277" invocations="1695" avgMicrosecondsPerInvocation="163" maxMicrosecondsPerInvocation="24092" standardDeviationMicrosecondsPerInvocation="798"/>
-      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="209" invocations="2" avgMicrosecondsPerInvocation="104819" maxMicrosecondsPerInvocation="165005" standardDeviationMicrosecondsPerInvocation="60186"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="196" invocations="342" avgMicrosecondsPerInvocation="573" maxMicrosecondsPerInvocation="34557" standardDeviationMicrosecondsPerInvocation="2022"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="177" invocations="342" avgMicrosecondsPerInvocation="518" maxMicrosecondsPerInvocation="9988" standardDeviationMicrosecondsPerInvocation="1038"/>
-      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="115" invocations="838" avgMicrosecondsPerInvocation="137" maxMicrosecondsPerInvocation="2471" standardDeviationMicrosecondsPerInvocation="169"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="53" invocations="342" avgMicrosecondsPerInvocation="155" maxMicrosecondsPerInvocation="2940" standardDeviationMicrosecondsPerInvocation="270"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="294" invocations="1691" avgMicrosecondsPerInvocation="174" maxMicrosecondsPerInvocation="27709" standardDeviationMicrosecondsPerInvocation="742"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="220" invocations="1695" avgMicrosecondsPerInvocation="130" maxMicrosecondsPerInvocation="2046" standardDeviationMicrosecondsPerInvocation="93"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="207" invocations="342" avgMicrosecondsPerInvocation="608" maxMicrosecondsPerInvocation="34007" standardDeviationMicrosecondsPerInvocation="2045"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="173" invocations="342" avgMicrosecondsPerInvocation="508" maxMicrosecondsPerInvocation="7161" standardDeviationMicrosecondsPerInvocation="879"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="133" invocations="838" avgMicrosecondsPerInvocation="158" maxMicrosecondsPerInvocation="2507" standardDeviationMicrosecondsPerInvocation="193"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="128" invocations="2" avgMicrosecondsPerInvocation="64255" maxMicrosecondsPerInvocation="94986" standardDeviationMicrosecondsPerInvocation="30731"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="62" invocations="342" avgMicrosecondsPerInvocation="182" maxMicrosecondsPerInvocation="2936" standardDeviationMicrosecondsPerInvocation="318"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="46" invocations="342" avgMicrosecondsPerInvocation="137" maxMicrosecondsPerInvocation="26361" standardDeviationMicrosecondsPerInvocation="1426"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="43" invocations="342" avgMicrosecondsPerInvocation="127" maxMicrosecondsPerInvocation="1961" standardDeviationMicrosecondsPerInvocation="245"/>
     </FindBugsProfile>
   </FindBugsSummary>
   <ClassFeatures></ClassFeatures>
   <History>
-    <AppVersion sequence="0" timestamp="1614592944636" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="0" timestamp="1617747434594" release="" codeSize="0" numClasses="0"/>
   </History>
 </BugCollection>

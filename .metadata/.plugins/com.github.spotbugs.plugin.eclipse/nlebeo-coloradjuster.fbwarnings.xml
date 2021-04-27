@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<BugCollection version="4.2.1" sequence="135" timestamp="1615190954289" analysisTimestamp="1615190953510" release="">
+<BugCollection version="4.2.1" sequence="1" timestamp="1617747431898" analysisTimestamp="1617747426033" release="">
   <Project projectName="nlebeo-coloradjuster">
-    <Jar>C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\bin\contoller\ValueRowPanel.class</Jar>
+    <Jar>C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\bin</Jar>
     <AuxClasspathEntry>C:\Users\nle01\eclipse-workspace\nlebeo-coloradjuster\bin</AuxClasspathEntry>
     <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
     <AuxClasspathEntry>C:\Users\nle01\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
@@ -35,27 +35,9 @@
       <SourceLine classname="contoller.ColorController" sourcefile="ColorController.java" sourcepath="contoller/ColorController.java"/>
     </Field>
     <Type descriptor="Lmodel/ColorModel;" role="TYPE_FOUND">
-      <SourceLine classname="model.ColorModel" start="64" end="215" sourcefile="ColorModel.java" sourcepath="model/ColorModel.java"/>
+      <SourceLine classname="model.ColorModel" start="63" end="214" sourcefile="ColorModel.java" sourcepath="model/ColorModel.java"/>
     </Type>
     <SourceLine classname="contoller.ColorController" start="77" end="77" startBytecode="33" endBytecode="33" sourcefile="ColorController.java" sourcepath="contoller/ColorController.java"/>
-  </BugInstance>
-  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="6">
-    <Class classname="contoller.GeneralColorRow">
-      <SourceLine classname="contoller.GeneralColorRow" sourcefile="GeneralColorRow.java" sourcepath="contoller/GeneralColorRow.java"/>
-    </Class>
-    <Field classname="contoller.GeneralColorRow" name="DECREASE_COLOR" signature="I" isStatic="false">
-      <SourceLine classname="contoller.GeneralColorRow" sourcefile="GeneralColorRow.java" sourcepath="contoller/GeneralColorRow.java"/>
-    </Field>
-    <SourceLine classname="contoller.GeneralColorRow" start="67" end="67" startBytecode="11" endBytecode="11" sourcefile="GeneralColorRow.java" sourcepath="contoller/GeneralColorRow.java"/>
-  </BugInstance>
-  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="6">
-    <Class classname="contoller.GeneralColorRow">
-      <SourceLine classname="contoller.GeneralColorRow" sourcefile="GeneralColorRow.java" sourcepath="contoller/GeneralColorRow.java"/>
-    </Class>
-    <Field classname="contoller.GeneralColorRow" name="INCREASE_COLOR" signature="I" isStatic="false">
-      <SourceLine classname="contoller.GeneralColorRow" sourcefile="GeneralColorRow.java" sourcepath="contoller/GeneralColorRow.java"/>
-    </Field>
-    <SourceLine classname="contoller.GeneralColorRow" start="64" end="64" startBytecode="6" endBytecode="6" sourcefile="GeneralColorRow.java" sourcepath="contoller/GeneralColorRow.java"/>
   </BugInstance>
   <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="1">
     <Class classname="contoller.GreenRowPanel">
@@ -75,202 +57,60 @@
     </Field>
     <SourceLine classname="contoller.GreenRowPanel" start="71" end="71" startBytecode="6" endBytecode="6" sourcefile="GreenRowPanel.java" sourcepath="contoller/GreenRowPanel.java"/>
   </BugInstance>
-  <BugInstance type="RV_RETURN_VALUE_IGNORED_NO_SIDE_EFFECT" priority="2" rank="17" abbrev="RV" category="STYLE" first="73" last="75" removedByChange="true">
-    <Class classname="contoller.ValueRowPanel">
-      <SourceLine classname="contoller.ValueRowPanel" sourcefile="ValueRowPanel.java" sourcepath="contoller/ValueRowPanel.java"/>
-    </Class>
-    <Method classname="contoller.ValueRowPanel" name="layoutComponents" signature="()V" isStatic="false">
-      <SourceLine classname="contoller.ValueRowPanel" start="104" end="138" startBytecode="0" endBytecode="500" sourcefile="ValueRowPanel.java" sourcepath="contoller/ValueRowPanel.java"/>
-    </Method>
-    <Method classname="java.util.Map" name="get" signature="(Ljava/lang/Object;)Ljava/lang/Object;" isStatic="false" role="METHOD_CALLED">
-      <SourceLine classname="java.util.Map" sourcefile="Map.java" sourcepath="java/util/Map.java"/>
-    </Method>
-    <SourceLine classname="contoller.ValueRowPanel" start="108" end="108" startBytecode="64" endBytecode="64" sourcefile="ValueRowPanel.java" sourcepath="contoller/ValueRowPanel.java"/>
-    <SourceLine classname="contoller.ValueRowPanel" start="108" end="108" startBytecode="64" endBytecode="64" sourcefile="ValueRowPanel.java" sourcepath="contoller/ValueRowPanel.java"/>
-  </BugInstance>
-  <BugInstance type="SE_BAD_FIELD_STORE" priority="2" rank="16" abbrev="Se" category="BAD_PRACTICE" first="125">
-    <Class classname="contoller.ValueRowPanel">
-      <SourceLine classname="contoller.ValueRowPanel" sourcefile="ValueRowPanel.java" sourcepath="contoller/ValueRowPanel.java"/>
-    </Class>
-    <Field classname="contoller.ValueRowPanel" name="myColor" signature="Lmodel/PropertyChangeEnabledMutableColor;" isStatic="false">
-      <SourceLine classname="contoller.ValueRowPanel" sourcefile="ValueRowPanel.java" sourcepath="contoller/ValueRowPanel.java"/>
-    </Field>
-    <Type descriptor="Lmodel/ColorModel;" role="TYPE_FOUND">
-      <SourceLine classname="model.ColorModel" start="64" end="215" sourcefile="ColorModel.java" sourcepath="model/ColorModel.java"/>
-    </Type>
-    <SourceLine classname="contoller.ValueRowPanel" start="94" end="94" startBytecode="119" endBytecode="119" sourcefile="ValueRowPanel.java" sourcepath="contoller/ValueRowPanel.java"/>
-  </BugInstance>
-  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="10">
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="1">
     <Class classname="contoller.ValueRowPanel">
       <SourceLine classname="contoller.ValueRowPanel" sourcefile="ValueRowPanel.java" sourcepath="contoller/ValueRowPanel.java"/>
     </Class>
     <Field classname="contoller.ValueRowPanel" name="DECREASE_COLOR" signature="I" isStatic="false">
       <SourceLine classname="contoller.ValueRowPanel" sourcefile="ValueRowPanel.java" sourcepath="contoller/ValueRowPanel.java"/>
     </Field>
-    <SourceLine classname="contoller.ValueRowPanel" start="74" end="74" startBytecode="11" endBytecode="11" sourcefile="ValueRowPanel.java" sourcepath="contoller/ValueRowPanel.java"/>
+    <SourceLine classname="contoller.ValueRowPanel" start="78" end="78" startBytecode="11" endBytecode="11" sourcefile="ValueRowPanel.java" sourcepath="contoller/ValueRowPanel.java"/>
   </BugInstance>
-  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="10">
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="1">
     <Class classname="contoller.ValueRowPanel">
       <SourceLine classname="contoller.ValueRowPanel" sourcefile="ValueRowPanel.java" sourcepath="contoller/ValueRowPanel.java"/>
     </Class>
     <Field classname="contoller.ValueRowPanel" name="INCREASE_COLOR" signature="I" isStatic="false">
       <SourceLine classname="contoller.ValueRowPanel" sourcefile="ValueRowPanel.java" sourcepath="contoller/ValueRowPanel.java"/>
     </Field>
-    <SourceLine classname="contoller.ValueRowPanel" start="71" end="71" startBytecode="6" endBytecode="6" sourcefile="ValueRowPanel.java" sourcepath="contoller/ValueRowPanel.java"/>
+    <SourceLine classname="contoller.ValueRowPanel" start="75" end="75" startBytecode="6" endBytecode="6" sourcefile="ValueRowPanel.java" sourcepath="contoller/ValueRowPanel.java"/>
   </BugInstance>
   <Errors errors="0" missingClasses="0"></Errors>
-  <FindBugsSummary timestamp="Mon, 8 Mar 2021 00:09:13 -0800" total_classes="1" referenced_classes="301" total_bugs="10" total_size="160" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="2.17" clock_seconds="0.78" peak_mbytes="1108.19" alloc_mbytes="2048.00" gc_seconds="0.02" priority_2="10">
-    <PackageStats package="contoller" total_bugs="10" total_types="5" total_size="160" priority_2="10">
-      <ClassStats class="contoller.ValueRowPanel" sourceFile="ValueRowPanel.java" interface="false" size="160" bugs="3" priority_2="3"/>
+  <FindBugsSummary timestamp="Tue, 6 Apr 2021 15:17:04 -0700" total_classes="12" referenced_classes="321" total_bugs="7" total_size="771" num_packages="4" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="59.31" clock_seconds="5.87" peak_mbytes="1270.33" alloc_mbytes="2048.00" gc_seconds="0.48" priority_2="7">
+    <PackageStats package="" total_bugs="0" total_types="2" total_size="22">
+      <ClassStats class="Application" sourceFile="Application.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="Application$1" sourceFile="Application.java" interface="false" size="6" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="contoller" total_bugs="7" total_types="6" total_size="627" priority_2="7">
+      <ClassStats class="contoller.BlueRowPanel" sourceFile="BlueRowPanel.java" interface="false" size="126" bugs="2" priority_2="2"/>
+      <ClassStats class="contoller.ColorController" sourceFile="ColorController.java" interface="false" size="57" bugs="1" priority_2="1"/>
+      <ClassStats class="contoller.ColorController$1" sourceFile="ColorController.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="contoller.GreenRowPanel" sourceFile="GreenRowPanel.java" interface="false" size="127" bugs="2" priority_2="2"/>
+      <ClassStats class="contoller.RedRowPanel" sourceFile="RedRowPanel.java" interface="false" size="124" bugs="0"/>
+      <ClassStats class="contoller.ValueRowPanel" sourceFile="ValueRowPanel.java" interface="false" size="179" bugs="2" priority_2="2"/>
+    </PackageStats>
+    <PackageStats package="model" total_bugs="0" total_types="3" total_size="102">
+      <ClassStats class="model.ColorModel" sourceFile="ColorModel.java" interface="false" size="82" bugs="0"/>
+      <ClassStats class="model.MutableColor" sourceFile="MutableColor.java" interface="true" size="10" bugs="0"/>
+      <ClassStats class="model.PropertyChangeEnabledMutableColor" sourceFile="PropertyChangeEnabledMutableColor.java" interface="true" size="10" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="view" total_bugs="0" total_types="1" total_size="20">
+      <ClassStats class="view.ColorPanel" sourceFile="ColorPanel.java" interface="false" size="20" bugs="0"/>
     </PackageStats>
     <FindBugsProfile>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="156" invocations="1612" avgMicrosecondsPerInvocation="96" maxMicrosecondsPerInvocation="2160" standardDeviationMicrosecondsPerInvocation="200"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="135" invocations="1616" avgMicrosecondsPerInvocation="83" maxMicrosecondsPerInvocation="627" standardDeviationMicrosecondsPerInvocation="57"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="67" invocations="301" avgMicrosecondsPerInvocation="224" maxMicrosecondsPerInvocation="3780" standardDeviationMicrosecondsPerInvocation="431"/>
-      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="66" invocations="2" avgMicrosecondsPerInvocation="33497" maxMicrosecondsPerInvocation="45968" standardDeviationMicrosecondsPerInvocation="12471"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="63" invocations="301" avgMicrosecondsPerInvocation="210" maxMicrosecondsPerInvocation="2746" standardDeviationMicrosecondsPerInvocation="366"/>
-      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="36" invocations="650" avgMicrosecondsPerInvocation="56" maxMicrosecondsPerInvocation="442" standardDeviationMicrosecondsPerInvocation="50"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="22" invocations="301" avgMicrosecondsPerInvocation="74" maxMicrosecondsPerInvocation="1069" standardDeviationMicrosecondsPerInvocation="125"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis" totalMilliseconds="22" invocations="301" avgMicrosecondsPerInvocation="73" maxMicrosecondsPerInvocation="14212" standardDeviationMicrosecondsPerInvocation="817"/>
-      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="18" invocations="1564" avgMicrosecondsPerInvocation="11" maxMicrosecondsPerInvocation="393" standardDeviationMicrosecondsPerInvocation="24"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="1197" invocations="1646" avgMicrosecondsPerInvocation="727" maxMicrosecondsPerInvocation="79433" standardDeviationMicrosecondsPerInvocation="3161"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="667" invocations="1650" avgMicrosecondsPerInvocation="404" maxMicrosecondsPerInvocation="64901" standardDeviationMicrosecondsPerInvocation="2786"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="593" invocations="321" avgMicrosecondsPerInvocation="1848" maxMicrosecondsPerInvocation="86990" standardDeviationMicrosecondsPerInvocation="6778"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="587" invocations="2" avgMicrosecondsPerInvocation="293734" maxMicrosecondsPerInvocation="399693" standardDeviationMicrosecondsPerInvocation="105959"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="505" invocations="321" avgMicrosecondsPerInvocation="1576" maxMicrosecondsPerInvocation="111591" standardDeviationMicrosecondsPerInvocation="6742"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="427" invocations="735" avgMicrosecondsPerInvocation="581" maxMicrosecondsPerInvocation="45530" standardDeviationMicrosecondsPerInvocation="3228"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="188" invocations="321" avgMicrosecondsPerInvocation="587" maxMicrosecondsPerInvocation="38939" standardDeviationMicrosecondsPerInvocation="2705"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="139" invocations="321" avgMicrosecondsPerInvocation="435" maxMicrosecondsPerInvocation="64400" standardDeviationMicrosecondsPerInvocation="3622"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="113" invocations="396" avgMicrosecondsPerInvocation="286" maxMicrosecondsPerInvocation="33171" standardDeviationMicrosecondsPerInvocation="2278"/>
     </FindBugsProfile>
   </FindBugsSummary>
   <ClassFeatures></ClassFeatures>
   <History>
-    <AppVersion sequence="0" timestamp="1614592942694" release="" codeSize="0" numClasses="0"/>
-    <AppVersion sequence="1" timestamp="1614592942695" release="" codeSize="591" numClasses="11"/>
-    <AppVersion sequence="2" timestamp="1614642627725" release="" codeSize="3" numClasses="1"/>
-    <AppVersion sequence="3" timestamp="1614642817963" release="" codeSize="5" numClasses="1"/>
-    <AppVersion sequence="4" timestamp="1614642901288" release="" codeSize="82" numClasses="1"/>
-    <AppVersion sequence="5" timestamp="1614643113672" release="" codeSize="6" numClasses="1"/>
-    <AppVersion sequence="6" timestamp="1614643609610" release="" codeSize="56" numClasses="1"/>
-    <AppVersion sequence="7" timestamp="1614643626959" release="" codeSize="56" numClasses="1"/>
-    <AppVersion sequence="8" timestamp="1614643646995" release="" codeSize="56" numClasses="1"/>
-    <AppVersion sequence="9" timestamp="1614643660522" release="" codeSize="70" numClasses="1"/>
-    <AppVersion sequence="10" timestamp="1614803544007" release="" codeSize="70" numClasses="1"/>
-    <AppVersion sequence="11" timestamp="1614803601039" release="" codeSize="23" numClasses="1"/>
-    <AppVersion sequence="12" timestamp="1614803659324" release="" codeSize="70" numClasses="1"/>
-    <AppVersion sequence="13" timestamp="1614803685354" release="" codeSize="24" numClasses="1"/>
-    <AppVersion sequence="14" timestamp="1614803707022" release="" codeSize="72" numClasses="1"/>
-    <AppVersion sequence="15" timestamp="1614803717458" release="" codeSize="24" numClasses="1"/>
-    <AppVersion sequence="16" timestamp="1614803721941" release="" codeSize="72" numClasses="1"/>
-    <AppVersion sequence="17" timestamp="1614803759602" release="" codeSize="72" numClasses="1"/>
-    <AppVersion sequence="18" timestamp="1614803772266" release="" codeSize="72" numClasses="1"/>
-    <AppVersion sequence="19" timestamp="1614803775859" release="" codeSize="72" numClasses="1"/>
-    <AppVersion sequence="20" timestamp="1614803781540" release="" codeSize="72" numClasses="1"/>
-    <AppVersion sequence="21" timestamp="1614803783982" release="" codeSize="72" numClasses="1"/>
-    <AppVersion sequence="22" timestamp="1614803833999" release="" codeSize="59" numClasses="1"/>
-    <AppVersion sequence="23" timestamp="1614803849562" release="" codeSize="73" numClasses="1"/>
-    <AppVersion sequence="24" timestamp="1614803986561" release="" codeSize="76" numClasses="1"/>
-    <AppVersion sequence="25" timestamp="1614804005407" release="" codeSize="76" numClasses="1"/>
-    <AppVersion sequence="26" timestamp="1614804028866" release="" codeSize="76" numClasses="1"/>
-    <AppVersion sequence="27" timestamp="1614804072616" release="" codeSize="77" numClasses="1"/>
-    <AppVersion sequence="28" timestamp="1614804087264" release="" codeSize="77" numClasses="1"/>
-    <AppVersion sequence="29" timestamp="1614804431150" release="" codeSize="77" numClasses="1"/>
-    <AppVersion sequence="30" timestamp="1614804437557" release="" codeSize="77" numClasses="1"/>
-    <AppVersion sequence="31" timestamp="1614804484582" release="" codeSize="77" numClasses="1"/>
-    <AppVersion sequence="32" timestamp="1614804511429" release="" codeSize="77" numClasses="1"/>
-    <AppVersion sequence="33" timestamp="1614804518006" release="" codeSize="77" numClasses="1"/>
-    <AppVersion sequence="34" timestamp="1614804587159" release="" codeSize="77" numClasses="1"/>
-    <AppVersion sequence="35" timestamp="1614804632566" release="" codeSize="77" numClasses="1"/>
-    <AppVersion sequence="36" timestamp="1614804725347" release="" codeSize="46" numClasses="1"/>
-    <AppVersion sequence="37" timestamp="1614804745923" release="" codeSize="77" numClasses="1"/>
-    <AppVersion sequence="38" timestamp="1614804848818" release="" codeSize="72" numClasses="2"/>
-    <AppVersion sequence="39" timestamp="1614805567573" release="" codeSize="46" numClasses="1"/>
-    <AppVersion sequence="40" timestamp="1614805603157" release="" codeSize="77" numClasses="1"/>
-    <AppVersion sequence="41" timestamp="1614805835906" release="" codeSize="78" numClasses="1"/>
-    <AppVersion sequence="42" timestamp="1614805853068" release="" codeSize="78" numClasses="1"/>
-    <AppVersion sequence="43" timestamp="1614805889617" release="" codeSize="80" numClasses="1"/>
-    <AppVersion sequence="44" timestamp="1614805894778" release="" codeSize="81" numClasses="1"/>
-    <AppVersion sequence="45" timestamp="1614805935211" release="" codeSize="81" numClasses="1"/>
-    <AppVersion sequence="46" timestamp="1614805982850" release="" codeSize="81" numClasses="1"/>
-    <AppVersion sequence="47" timestamp="1614805997866" release="" codeSize="81" numClasses="1"/>
-    <AppVersion sequence="48" timestamp="1614807391374" release="" codeSize="81" numClasses="1"/>
-    <AppVersion sequence="49" timestamp="1614807444750" release="" codeSize="81" numClasses="1"/>
-    <AppVersion sequence="50" timestamp="1614807464648" release="" codeSize="49" numClasses="1"/>
-    <AppVersion sequence="51" timestamp="1614807496474" release="" codeSize="81" numClasses="1"/>
-    <AppVersion sequence="52" timestamp="1614807514923" release="" codeSize="81" numClasses="1"/>
-    <AppVersion sequence="53" timestamp="1614807935792" release="" codeSize="81" numClasses="1"/>
-    <AppVersion sequence="54" timestamp="1614808569114" release="" codeSize="28" numClasses="1"/>
-    <AppVersion sequence="55" timestamp="1614808602895" release="" codeSize="28" numClasses="1"/>
-    <AppVersion sequence="56" timestamp="1614808606194" release="" codeSize="81" numClasses="1"/>
-    <AppVersion sequence="57" timestamp="1614808752109" release="" codeSize="78" numClasses="1"/>
-    <AppVersion sequence="58" timestamp="1614808787112" release="" codeSize="78" numClasses="1"/>
-    <AppVersion sequence="59" timestamp="1614808798679" release="" codeSize="78" numClasses="1"/>
-    <AppVersion sequence="60" timestamp="1614808814613" release="" codeSize="76" numClasses="1"/>
-    <AppVersion sequence="61" timestamp="1614808828026" release="" codeSize="61" numClasses="1"/>
-    <AppVersion sequence="62" timestamp="1614808841195" release="" codeSize="76" numClasses="1"/>
-    <AppVersion sequence="63" timestamp="1614808852269" release="" codeSize="76" numClasses="1"/>
-    <AppVersion sequence="64" timestamp="1614808889695" release="" codeSize="78" numClasses="1"/>
-    <AppVersion sequence="65" timestamp="1614808893872" release="" codeSize="78" numClasses="1"/>
-    <AppVersion sequence="66" timestamp="1614809001086" release="" codeSize="78" numClasses="1"/>
-    <AppVersion sequence="67" timestamp="1614809041096" release="" codeSize="46" numClasses="1"/>
-    <AppVersion sequence="68" timestamp="1614809060874" release="" codeSize="77" numClasses="1"/>
-    <AppVersion sequence="69" timestamp="1614809394967" release="" codeSize="46" numClasses="1"/>
-    <AppVersion sequence="70" timestamp="1614809435390" release="" codeSize="46" numClasses="1"/>
-    <AppVersion sequence="71" timestamp="1614809471964" release="" codeSize="77" numClasses="1"/>
-    <AppVersion sequence="72" timestamp="1614809568035" release="" codeSize="46" numClasses="1"/>
-    <AppVersion sequence="73" timestamp="1614809571816" release="" codeSize="77" numClasses="1"/>
-    <AppVersion sequence="74" timestamp="1614809856547" release="" codeSize="3" numClasses="1"/>
-    <AppVersion sequence="75" timestamp="1614809876058" release="" codeSize="3" numClasses="1"/>
-    <AppVersion sequence="76" timestamp="1614816551199" release="" codeSize="78" numClasses="1"/>
-    <AppVersion sequence="77" timestamp="1614816565725" release="" codeSize="79" numClasses="1"/>
-    <AppVersion sequence="78" timestamp="1614816585137" release="" codeSize="81" numClasses="1"/>
-    <AppVersion sequence="79" timestamp="1614816748975" release="" codeSize="24" numClasses="1"/>
-    <AppVersion sequence="80" timestamp="1614816760856" release="" codeSize="24" numClasses="1"/>
-    <AppVersion sequence="81" timestamp="1614816780029" release="" codeSize="46" numClasses="1"/>
-    <AppVersion sequence="82" timestamp="1614816874787" release="" codeSize="81" numClasses="1"/>
-    <AppVersion sequence="83" timestamp="1614816930307" release="" codeSize="24" numClasses="1"/>
-    <AppVersion sequence="84" timestamp="1614816955252" release="" codeSize="133" numClasses="1"/>
-    <AppVersion sequence="85" timestamp="1614817057417" release="" codeSize="135" numClasses="1"/>
-    <AppVersion sequence="86" timestamp="1614817076852" release="" codeSize="137" numClasses="1"/>
-    <AppVersion sequence="87" timestamp="1614817103778" release="" codeSize="122" numClasses="1"/>
-    <AppVersion sequence="88" timestamp="1614817231784" release="" codeSize="144" numClasses="1"/>
-    <AppVersion sequence="89" timestamp="1614817298175" release="" codeSize="147" numClasses="1"/>
-    <AppVersion sequence="90" timestamp="1614817362039" release="" codeSize="147" numClasses="1"/>
-    <AppVersion sequence="91" timestamp="1614817428449" release="" codeSize="147" numClasses="1"/>
-    <AppVersion sequence="92" timestamp="1614817524873" release="" codeSize="143" numClasses="1"/>
-    <AppVersion sequence="93" timestamp="1614817528259" release="" codeSize="143" numClasses="1"/>
-    <AppVersion sequence="94" timestamp="1614817531071" release="" codeSize="143" numClasses="1"/>
-    <AppVersion sequence="95" timestamp="1614817536507" release="" codeSize="149" numClasses="1"/>
-    <AppVersion sequence="96" timestamp="1614817550998" release="" codeSize="151" numClasses="1"/>
-    <AppVersion sequence="97" timestamp="1614818149290" release="" codeSize="101" numClasses="1"/>
-    <AppVersion sequence="98" timestamp="1614818160728" release="" codeSize="104" numClasses="1"/>
-    <AppVersion sequence="99" timestamp="1614818187469" release="" codeSize="104" numClasses="1"/>
-    <AppVersion sequence="100" timestamp="1614818202530" release="" codeSize="104" numClasses="1"/>
-    <AppVersion sequence="101" timestamp="1614818269891" release="" codeSize="104" numClasses="1"/>
-    <AppVersion sequence="102" timestamp="1614818276713" release="" codeSize="104" numClasses="1"/>
-    <AppVersion sequence="103" timestamp="1614818288551" release="" codeSize="137" numClasses="1"/>
-    <AppVersion sequence="104" timestamp="1614818527358" release="" codeSize="145" numClasses="1"/>
-    <AppVersion sequence="105" timestamp="1614819406428" release="" codeSize="84" numClasses="1"/>
-    <AppVersion sequence="106" timestamp="1614819430094" release="" codeSize="84" numClasses="1"/>
-    <AppVersion sequence="107" timestamp="1614819434979" release="" codeSize="88" numClasses="1"/>
-    <AppVersion sequence="108" timestamp="1614819446637" release="" codeSize="84" numClasses="1"/>
-    <AppVersion sequence="109" timestamp="1614819450438" release="" codeSize="88" numClasses="1"/>
-    <AppVersion sequence="110" timestamp="1614819460661" release="" codeSize="88" numClasses="1"/>
-    <AppVersion sequence="111" timestamp="1614819550146" release="" codeSize="128" numClasses="1"/>
-    <AppVersion sequence="112" timestamp="1614819574182" release="" codeSize="82" numClasses="1"/>
-    <AppVersion sequence="113" timestamp="1614819580795" release="" codeSize="145" numClasses="1"/>
-    <AppVersion sequence="114" timestamp="1614819808035" release="" codeSize="148" numClasses="1"/>
-    <AppVersion sequence="115" timestamp="1614819835522" release="" codeSize="148" numClasses="1"/>
-    <AppVersion sequence="116" timestamp="1614909327994" release="" codeSize="131" numClasses="1"/>
-    <AppVersion sequence="117" timestamp="1614909470898" release="" codeSize="136" numClasses="1"/>
-    <AppVersion sequence="118" timestamp="1614909561052" release="" codeSize="133" numClasses="1"/>
-    <AppVersion sequence="119" timestamp="1614909618540" release="" codeSize="136" numClasses="1"/>
-    <AppVersion sequence="120" timestamp="1614909654438" release="" codeSize="136" numClasses="1"/>
-    <AppVersion sequence="121" timestamp="1614909668065" release="" codeSize="136" numClasses="1"/>
-    <AppVersion sequence="122" timestamp="1614910667883" release="" codeSize="71" numClasses="2"/>
-    <AppVersion sequence="123" timestamp="1614910751322" release="" codeSize="136" numClasses="1"/>
-    <AppVersion sequence="124" timestamp="1614910753287" release="" codeSize="136" numClasses="1"/>
-    <AppVersion sequence="125" timestamp="1614910761100" release="" codeSize="154" numClasses="1"/>
-    <AppVersion sequence="126" timestamp="1614910773577" release="" codeSize="151" numClasses="1"/>
-    <AppVersion sequence="127" timestamp="1615082893916" release="" codeSize="72" numClasses="2"/>
-    <AppVersion sequence="128" timestamp="1615189448551" release="" codeSize="151" numClasses="1"/>
-    <AppVersion sequence="129" timestamp="1615189449991" release="" codeSize="151" numClasses="1"/>
-    <AppVersion sequence="130" timestamp="1615189935913" release="" codeSize="152" numClasses="1"/>
-    <AppVersion sequence="131" timestamp="1615190250840" release="" codeSize="154" numClasses="1"/>
-    <AppVersion sequence="132" timestamp="1615190315464" release="" codeSize="158" numClasses="1"/>
-    <AppVersion sequence="133" timestamp="1615190911350" release="" codeSize="159" numClasses="1"/>
-    <AppVersion sequence="134" timestamp="1615190931673" release="" codeSize="159" numClasses="1"/>
+    <AppVersion sequence="0" timestamp="1617747431898" release="" codeSize="0" numClasses="0"/>
   </History>
 </BugCollection>
